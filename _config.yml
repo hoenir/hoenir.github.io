@@ -7,7 +7,7 @@ canonical: http://www.sandervandecruys.be
 owner:
   name:           Sander Van de Cruys
   avatar:         avatar.png
-  bio:            "Prutser"
+  bio:            "Professional Prutser"
   email:          me@sandervandecruys.be
   twitter:        sandervdc
   github:         hoenir
@@ -26,8 +26,8 @@ tools:
 links:
   - title: About
     url: /about
-  - title: Science
-    url: /science
+  - title: Publications
+    url: /publications
   - title: Projects
     url: /projects
 #  - title: Cole Who?
