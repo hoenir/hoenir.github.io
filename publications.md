@@ -2,7 +2,7 @@
 layout: post
 permalink: /publications/index.html
 title: Publications
-description: my academic publications.
+description: 
 tags: [science, mind, brain, journals, talks, posters]
 image:
   feature: soft-trees.jpg
