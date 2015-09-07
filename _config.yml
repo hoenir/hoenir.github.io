@@ -4,7 +4,7 @@ description:      Overview of my academic work.
 canonical:        http://www.sandervandecruys.be
 
 # Owner/author information
-owner:
+  owner:
   name:           Sander Van de Cruys
   avatar:         avatar.png
   bio:            "Professional Prutser"
