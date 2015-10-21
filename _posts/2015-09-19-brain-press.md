@@ -13,4 +13,5 @@ image:
 * Voices of Chernobyl
 * http://www.theatlantic.com/magazine/archive/2015/10/hit-charade/403192/?single_page=true&utm_source=digg
 * Principle of least action: http://www.3quarksdaily.com/3quarksdaily/2014/09/on-optimal-paths-minimal-action.html
+* http://quadrant.org.au/magazine/2015/09/fall-meritocracy/
 
