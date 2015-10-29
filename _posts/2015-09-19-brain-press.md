@@ -15,4 +15,5 @@ image:
 * Principle of least action: http://www.3quarksdaily.com/3quarksdaily/2014/09/on-optimal-paths-minimal-action.html
 * http://quadrant.org.au/magazine/2015/09/fall-meritocracy/
 * predictive analytics in sports: http://fivethirtyeight.com/features/can-an-astrophysicist-change-the-way-we-watch-sports/
+* http://qz.com/527008/an-algorithm-can-predict-human-behavior-better-than-humans/
 
