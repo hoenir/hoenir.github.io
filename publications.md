@@ -2,7 +2,7 @@
 layout: post
 permalink: /publications/index.html
 title: Publications
-description: 
+description:
 tags: [science, mind, brain, journals, talks, posters]
 image:
   feature: soft-trees.jpg
@@ -34,13 +34,8 @@ See my Google Scholar [profile](http://scholar.google.be/citations?user=wcZPWOQA
 * Van de Cruys, S., Wagemans, J. (2010). Putting reward in art: A tentative prediction error account of visual art. Visual Perception and Visual Arts. Brussels, Belgium, November 2010.
 * Van de Cruys, S., Wagemans, J. (2009). Affect and Gestalt. International Society for Research on Emotion (ISRE). Leuven, Belgium, August 2009.
 
-### In Dutch
-
-* [De cybersuicides: de stille pijn achter statistieken](http://eoswetenschap.eu/content/de-cybersuicides-de-stille-pijn-achter-statistieken). Eos Magazine (december 2012).
-* [Zeg eens Goooooooogle!](http://breinwijzer.be/studio-brein/zeg-eens-goooooooogle) This article appeared on Breinwijzer.
-
 ### Press coverage of my work
 
 * Martinez-Conde, S. (2015). [The Neuroscience of Slydini’s Paper Balls-to-Hat Magic Trick](http://blogs.scientificamerican.com/illusion-chasers/2015/04/27/slydini-neuromagic/). Scientific American.
-* Sinha, P., Kjelgaard, M., Cardinaux, A. (2014). [Autism as a disorder of prediction in a 'magical' world](https://sfari.org/news-and-opinion/viewpoint/2015/autism-as-a-disorder-of-prediction-in-a-magical-world). Simons Foundation Autism Research Initiative (SFARI). 
+* Sinha, P., Kjelgaard, M., Cardinaux, A. (2014). [Autism as a disorder of prediction in a 'magical' world](https://sfari.org/news-and-opinion/viewpoint/2015/autism-as-a-disorder-of-prediction-in-a-magical-world). Simons Foundation Autism Research Initiative (SFARI).
 * Brock, J. (2014). [Combining the old and the new](https://thepsychologist.bps.org.uk/volume-27/edition-10/combining-old-and-new"). The psychologist.

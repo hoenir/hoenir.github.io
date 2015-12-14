@@ -17,3 +17,4 @@ image:
 * predictive analytics in sports: http://fivethirtyeight.com/features/can-an-astrophysicist-change-the-way-we-watch-sports/
 * http://qz.com/527008/an-algorithm-can-predict-human-behavior-better-than-humans/
 * https://www.timeshighereducation.com/features/the-story-of-a-shy-academic?nopaging=1
+* http://www.huffingtonpost.com/linda-stone/just-breathe-building-the_b_85651.html

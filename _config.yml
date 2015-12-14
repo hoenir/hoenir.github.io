@@ -1,7 +1,7 @@
 title:            Sander Van de Cruys
 tagline:          Don't panic.
 description:      My corner of the internet.
-canonical:        
+canonical:
 
 # Owner/author information
 owner:
@@ -12,8 +12,8 @@ owner:
   twitter:        sandervdc
   github:         hoenir
   instagram:      sandvdc
-  dribbble:       
-  disqus:         
+  dribbble:
+  disqus:
   location:       "Leuven, Belgium"
   # Plug in your disqus shortname!
 
@@ -26,10 +26,10 @@ tools:
 links:
   - title: About
     url: /about
-  - title: Publications
-    url: /publications
-  - title: Projects
-    url: /projects
+  - title: Work
+    url: /work
+  - title: Moerstaal
+    url: /moerstaal
 #  - title: Cole Who?
 #    url: http://coletownsend.com
 #    external: true
