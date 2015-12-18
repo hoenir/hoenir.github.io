@@ -4,7 +4,7 @@ title: Brain press
 description: "Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage."
 categories: articles
 date: 2013-08-17
-image: 
+image:
         feature: soft-trees.jpg
 ---
 
@@ -18,3 +18,4 @@ image:
 * http://qz.com/527008/an-algorithm-can-predict-human-behavior-better-than-humans/
 * https://www.timeshighereducation.com/features/the-story-of-a-shy-academic?nopaging=1
 * http://www.huffingtonpost.com/linda-stone/just-breathe-building-the_b_85651.html
+* http://www.nytimes.com/2015/12/13/opinion/sunday/the-rise-of-hate-search.html?_r=1
