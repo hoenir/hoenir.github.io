@@ -3,6 +3,7 @@ layout: post-no-feature
 title: "Affective value in the predictive mind"
 journal: "under review"
 description: ""
+link: https://drive.google.com/file/d/0BwlD7q-DXkdWczcyYm9WR3lrdXc/view?usp=sharing
 authors: "Van de Cruys, S."
 category: [work, journal]
 tags: [predictive mind, affect, prediction error, emotion, homeostasis, value, valence, reward, uncertainty]
