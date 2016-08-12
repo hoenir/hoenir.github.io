@@ -15,7 +15,6 @@ owner:
   dribbble:
   disqus:
   location:       "Leuven, Belgium"
-  # Plug in your disqus shortname!
 
 tools:
   standards:      "HTML, SCSS, Jekyll"
