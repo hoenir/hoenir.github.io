@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "Circadian-Time Sickness: Time-of-Day Cue-Conflicts Directly Affect Health"
+title: "Circadian-time sickness: Time-of-day cue-conflicts directly affect health"
 journal: "Trends in Neurosciences"
 description: ""
 link: https://goo.gl/TD2kgi
