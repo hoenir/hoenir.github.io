@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "The use of prior knowledge for perceptual inference is preserved in ASD"
 journal: "Clinical Psychological Science"
 description: ""
-link: https://goo.gl/rbgQKm
+link: https://goo.gl/hoRwhV
 authors: "Van de Cruys, S., Vanmarcke, S., Van de Put, I., Wagemans, J."
 category: [work, journal]
 tags: [ASD, autism, Perceptual inference, Mooney images, Two-tone images, Bayesian perception, Perceptual priors, Top-down]
