@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Tuning in to art: A predictive processing account of negative emotion in art (commentary)"
 journal: Behavioral and Brain Sciences
 description: ""
-link: https://goo.gl/2KzJSb
+link: https://goo.gl/rfUbZZ
 authors: "Van de Cruys, S., Chamberlain, R., Wagemans, J."
 category: [work, journal]
 tags: [predictive mind, affect, prediction error, emotion, art, reward, uncertainty]
