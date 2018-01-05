@@ -6,7 +6,7 @@ description: ""
 link: https://goo.gl/zQpiQz
 authors: "Van de Cruys, S."
 category: [work, journal]
-tags: [Bayesian perception, free energy principle, predictive processing, Mooney images, preference, appreciation, perceptual pleasure, Gestalt]
+tags: [free energy principle, predictive processing, Mooney images, preference, appreciation, perceptual pleasure, Gestalt]
 ---
 
 No abstract
