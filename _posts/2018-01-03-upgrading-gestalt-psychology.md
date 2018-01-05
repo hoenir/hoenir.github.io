@@ -9,3 +9,4 @@ category: [work, journal]
 tags: [Bayesian perception, free energy principle, predictive processing, Mooney images, preference, appreciation, perceptual pleasure, Gestalt]
 ---
 
+No abstract
