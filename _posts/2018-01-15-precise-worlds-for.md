@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Precise worlds for certain minds: An ecological perspective on the relational self in autism"
 journal: "Topoi"
 description: ""
-link: https://goo.gl/SPLS41
+link: https://goo.gl/82EFLd
 authors: "Constant, A., Bervoets, J., Hens, K., Van de Cruys, S."
 category: [work, journal]
 tags: [free energy principle, predictive processing, autism, ecological, self]
