@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Sensory prediction errors are less modulated by global context in autism spectrum disorder"
 journal: "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging"
 description: ""
-link: https://goo.gl/DiF8nD
+link: http://bit.ly/2OpZ6dG
 authors: "Goris, J., Braem, S., Nijhof, A., Rigoni, D., Deschrijver, E., Van de Cruys, S., Wiersema, R., Brass, M"
 category: [work, journal]
 tags: [uncertainty, predictive processing, mismatch negativity, autism]
