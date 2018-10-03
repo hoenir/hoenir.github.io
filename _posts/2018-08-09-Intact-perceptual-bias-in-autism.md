@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Intact perceptual bias in autism contradicts the decreased normalization model"
 journal: "Scientific Reports"
 description: ""
-link: http://bit.ly/2OZpSe3
+link: http://bit.ly/2zPj8tI
 authors: "Van de Cruys, S., Vanmarcke, S., Steyaert, J., Wagemans, J."
 category: [work, journal]
 tags: [orientation perception, psychophysics, predictive processing, divisive normalization, autism]
