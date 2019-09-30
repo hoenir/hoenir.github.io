@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Like what you see: Generalization of social learning determines art appreciation"
 journal: "Acta Psychologica"
 description: ""
-link: hhttp://bit.ly/2kSvAEh
+link: http://bit.ly/2kSvAEh
 authors: "Boddez, Y., Descheemaeker, M., Mertens, G., Truyts, A., Van de Cruys, S."
 category: [work, journal]
 tags: [aesthetics, art, generalization, evaluative priming]
