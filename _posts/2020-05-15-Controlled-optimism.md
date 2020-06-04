@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "Controlled hallucination"
+title: "Controlled optimism"
 journal: "Trends in Cognitive Sciences"
 description: ""
 link: https://bit.ly/36XK21q
