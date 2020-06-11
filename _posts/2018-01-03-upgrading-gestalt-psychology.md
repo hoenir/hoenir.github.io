@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Upgrading Gestalt psychology with variational neuroethology: The case of perceptual pleasures (Commentary)"
 journal: "Physics of Life Reviews"
 description: ""
-link: https://goo.gl/mZmdwk
+link: https://bit.ly/2MPZjZ0
 authors: "Van de Cruys, S."
 category: [work, journal]
 tags: [free energy principle, predictive processing, Mooney images, preference, appreciation, psychoaesthetics, perceptual pleasure, Gestalt]
