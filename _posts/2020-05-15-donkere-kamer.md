@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post
 title: "De ontsnapping uit de donkere kamer"
 description: "Volgens dichter en filosoof Paul Valéry (1871-1945) is het produceren
 van toekomst het doel van de hersenen. Het is precies dit idee dat
@@ -7,6 +7,8 @@ zovele decennia later uitgewerkt en geformaliseerd wordt in de recente
 neurocognitieve theorie van de predictieve verwerking."
 category: [blog, moerstaal]
 tags: [schrijfsel, predictive processing, Karakter]
+image:
+  feature: "tumblr_o2laxgcmyl1u6x3h6o1_1280.jpg"
 ---
 
 Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-ontsnapping-uit-de-donkere-kame/). Dit is deel 2 van een tweeluik, deel 1 vind je [hier](http://www.sandervandecruys.be/blog/moerstaal/orakelend-brein).
