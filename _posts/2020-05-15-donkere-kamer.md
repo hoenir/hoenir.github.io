@@ -1,15 +1,15 @@
 ---
 layout: post-no-feature
 title: "De ontsnapping uit de donkere kamer"
-description: "Volgens dichter en filosoof Paul Valéry (1871--1945) is het produceren
+description: "Volgens dichter en filosoof Paul Valéry (1871-1945) is het produceren
 van toekomst het doel van de hersenen. Het is precies dit idee dat
 zovele decennia later uitgewerkt en geformaliseerd wordt in de recente
-neurocognitieve theorie van de predictieve verwerking (zie [deel1](http://www.sandervandecruys.be/blog/moerstaal/orakelend-brein))"
+neurocognitieve theorie van de predictieve verwerking."
 category: [blog, moerstaal]
 tags: [schrijfsel, predictive processing, Karakter]
 ---
 
-Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-ontsnapping-uit-de-donkere-kame/).
+Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-ontsnapping-uit-de-donkere-kame/). Dit is deel 2 van een tweeluik, deel 1 vind je [hier](http://www.sandervandecruys.be/blog/moerstaal/orakelend-brein).
 
 Om de eigen toekomst te produceren moet het brein
 noodzakelijkerwijs een voorspellend model van die toekomst aanleren en
@@ -200,19 +200,12 @@ voorspellingsfout te reduceren (tenminste, als je de clou hebt). Ervaar
 het zelf in dit voorbeeld, vertaald uit *Inside Jokes* (Hurley, Dennett,
 & Adams, 2013):
 
-> *Een man en een vrouw die elkaar nog nooit eerder hebben ontmoet,
-> delen een slaapwagon in een nachttrein. Na de aanvankelijke schaamte
-> gaan ze allebei slapen in hun compartiment. Maar midden in de nacht
-> leunt de vrouw voorover en zegt tegen de man: \'Het spijt me, maar ik
-> heb het een beetje koud. Zou jij nog een deken voor me willen halen?
-> \'*
->
-> *'Ik heb een beter idee', antwoordt de man met een glimp in zijn ogen.
-> 'Laten we voor één nachtje net doen of we getrouwd zijn.'*
->
-> *\'Oké, waarom niet\', giechelt de vrouw.*
->
-> *\'Geweldig\', zegt de man. \'Haal je verdomde deken zelf!\'*
+   Een man en een vrouw die elkaar nog nooit eerder hebben ontmoet, delen een slaapwagon in een nachttrein. Na de aanvankelijke schaamte gaan ze allebei slapen in hun              compartiment. Maar midden in de nacht leunt de vrouw voorover en zegt tegen de man: 
+   'Het spijt me, maar ik heb het een beetje koud. Zou jij nog een deken voor me willen halen?'
+   'Ik heb een beter idee', antwoordt de man met een glimp in zijn ogen.
+   'Laten we voor één nachtje net doen of we getrouwd zijn.'
+   'Oké, waarom niet', giechelt de vrouw.
+   'Geweldig', zegt de man. 'Haal je verdomde deken zelf!'
 
 Het onverwacht oplossen van de voorspellingsfout komt meestal na een
 switch in het gehanteerde model voor de situatie, en geeft de
@@ -247,8 +240,7 @@ soms kan betrachten.
 **Meer lezen?**
 
 Sun, Z., & Firestone, C. (2020). The Dark Room Problem. *Trends in
-Cognitive Sciences*.
-[[https://doi.org/10.1016/j.tics.2020.02.006]{.underline}](https://doi.org/10.1016/j.tics.2020.02.006).
+Cognitive Sciences*. [https://doi.org/10.1016/j.tics.2020.02.006](https://doi.org/10.1016/j.tics.2020.02.006).
 
 Van de Cruys, S., Friston, K.J., & Clark, A. (2020) [Controlled optimism](https://bit.ly/36XK21q).
 *Trends in Cognitive Sciences*. (in press)
