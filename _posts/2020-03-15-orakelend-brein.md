@@ -1,17 +1,14 @@
 ---
 layout: post-no-feature
 title: "De opkomst van het orakelend brein"
-description: "Wist je dat wijngisten in hun vat de volgende stap van het wijnmaakproces al kunnen voorspellen?"
+description: "Wist je dat wijngisten in hun vat de volgende stap van het wijnmaakproces al kunnen voorspellen? Elke stap in het proces van
+simpele druif naar gebotteld edel vocht komt met een aantal specifieke stresserende omstandigheden voor een gistcel."
 category: [blog, moerstaal]
 tags: [schrijfsel, predictive processing, Karakter]
 ---
 Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-opkomst-van-het-orakelend-brein/).
 
-Wist je dat wijngisten in hun vat de volgende stap van het
-wijnmaakproces al kunnen voorspellen? Elke stap in het proces van
-simpele druif naar gebotteld edel vocht komt met een aantal specifieke
-stresserende omstandigheden voor een gistcel. Onderzoek wees uit dat,
-als je zo'n cel blootstelt aan een milde stress van het type dat
+Onderzoek wees uit dat, als je zo'n cel blootstelt aan een milde stress van het type dat
 gewoonlijk in de eerdere fasen van het wijnproces voorkomt (bv. warmte
 of ethanolshocks), dit reeds een anticiperende reactie teweegbrengt
 waardoor de cel beter bestand wordt tegen alle stressoren die pas later
@@ -341,7 +338,7 @@ biologische systemen en verklaart hun kenmerkende doelgerichtheid, het
 
 *Maar botst de leuze van de vermindering van voorspellingsfouten niet
 met onze verkenningszucht, onze zin voor creativiteit, onze drang naar
-volstrekte verrassing in de kunst en de moppen? Zie het tweede deel van dit essay.
+volstrekte verrassing in de kunst en de moppen? Zie het tweede deel van dit essay.*
 
 **Meer lezen**
 
