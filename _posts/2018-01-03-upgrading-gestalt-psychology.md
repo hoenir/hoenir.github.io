@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "Upgrading Gestalt psychology with variational neuroethology: The case of perceptual pleasures (Commentary)"
+title: "Upgrading Gestalt psychology with variational neuroethology: The case of perceptual pleasures"
 journal: "Physics of Life Reviews"
 description: ""
 link: https://bit.ly/2MPZjZ0
