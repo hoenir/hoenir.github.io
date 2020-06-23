@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "Tuning in to art: A predictive processing account of negative emotion in art (commentary)"
+title: "Tuning in to art: A predictive processing account of negative emotion in art"
 journal: Behavioral and Brain Sciences
 description: ""
 link: https://goo.gl/rfUbZZ
