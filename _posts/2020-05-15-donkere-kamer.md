@@ -4,7 +4,7 @@ title: "De ontsnapping uit de donkere kamer"
 description: "Volgens dichter en filosoof Paul Valéry (1871-1945) is het produceren
 van toekomst het doel van de hersenen. Het is precies dit idee dat
 zovele decennia later uitgewerkt en geformaliseerd wordt in de recente
-neurocognitieve theorie van de predictieve verwerking."
+neurocognitieve theorie van de predictieve verwerking..."
 category: [blog, moerstaal]
 tags: [schrijfsel, predictive processing, Karakter]
 image:
