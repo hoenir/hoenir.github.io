@@ -8,7 +8,7 @@ image:
   feature: https://lh3.googleusercontent.com/sKLuoGN2IoG2oBCJ2mZ6DtDDIMoYhcuB-h9pHo64xBpWgGej3k99ko7MGd67r1HVETU36alSKiWQl6kUhP3HoGzAeJWqRZln0jlt_whE9mUPFRy9BoUoK5HCblqz9c89stWcBOkdOAY=w2400
 ---
 
-I’m a postdoctoral researcher in the Brain & Cognition Unit in [Leuven](http://maps.google.be/maps?q=Tiensestraat%20102,%203000%20Leuven&amp;hl=nl&amp;sll=50.877571,4.704328&amp;sspn=0.362637,0.617294&amp;vpsrc=0&amp;gl=be&amp;z=16), working on the [GestaltReVision](http://www.gestaltrevision.be) project. [Contact](mailto:sandervandecruys@gmail.com) me.
+I’m a postdoctoral researcher in [Antwerp Social Lab](https://www.uantwerpen.be/nl/onderzoeksgroep/antwerp-social-lab/) at the University of Antwerp. I previously worked in the Brain & Cognition Unit in [Leuven](http://maps.google.be/maps?q=Tiensestraat%20102,%203000%20Leuven&amp;hl=nl&amp;sll=50.877571,4.704328&amp;sspn=0.362637,0.617294&amp;vpsrc=0&amp;gl=be&amp;z=16) on the [GestaltReVision](http://www.gestaltrevision.be) project. You can contact me [here](mailto:sandervandecruys@gmail.com).
 
 One of the reasons I get up in the morning (or rather: stay up late at night) is to gain fundamental insight in the sane and insane mind, and in the brain that realizes it. In my scientific work I'm guided by the view of the brain as a prediction engine, continuously and proactively anticipating incoming sensory inputs. I like how this view has deep consequences for the interplay between cognition and emotion. More on this in my academic [publications](/work/index.html).
 
