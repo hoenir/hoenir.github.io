@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Visual affects: Linking curiosity, aha-Erlebnis, and memory through information gain"
 journal: "Cognition"
 description: ""
-link: https://bit.ly/3w34aLF
+link: https://bit.ly/3whmPDM
 authors: "Van de Cruys, S., Damiano, C., Boddez, Y., Król, M., Goetschalckx, L., & Wagemans,J."
 category: [work, journal]
 tags: [curiosity, aha-Erlebnis, memory, aesthetic appreciation, information gain, uncertainty, intrinsic motivation, Mooney images, semantic ambiguity, predictive processing]
