@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: publications
 title: "Publications"
 permalink: /work/index.html
 tags: [science, work, journal, peer-reviewed, publications]
