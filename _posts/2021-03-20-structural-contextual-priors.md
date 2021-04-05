@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Structural and contextual priors affect visual search in children with and without autism"
 journal: "Autism Research"
 description: ""
-link: 
+link: https://bit.ly/3upb8sY
 authors: "Van de Cruys, S., Lemmens, L., Sapey-Triomphe, L.-A., Chetverikov, A., Noens, I., & Wagemans, J."
 category: [work, journal]
 tags: [Autism spectrum disorder, ensemble perception, perceptual learning, visual search, predictive coding, Bayesian brain, summary statistics]
