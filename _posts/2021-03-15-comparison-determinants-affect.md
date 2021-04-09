@@ -6,5 +6,5 @@ description: ""
 link: 
 authors: "Moors, A., Van de Cruys, S., & Pourtois, G."
 category: [work, journal]
-tags: []
+tags: [emotion, affect, goals, predictive processing]
 ---
