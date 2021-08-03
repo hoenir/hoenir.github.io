@@ -8,7 +8,7 @@ image:
   feature: dageraad-hersenen_final.png
 tags: [schrijfsel, predictive processing, Karakter]
 ---
-Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-opkomst-van-het-orakelend-brein/) ([pdf](http://www.sandervandecruys.be/pdf/Karakter69Van_de_Cruys2020.pdf)).
+Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-opkomst-van-het-orakelend-brein/) ([pdf](http://www.sandervandecruys.be/pdf/2020_Karakter69Van_de_Cruys.pdf)).
 
 Onderzoek wees uit dat, als je zo'n cel blootstelt aan een milde stress van het type dat
 gewoonlijk in de eerdere fasen van het wijnproces voorkomt (bv. warmte
