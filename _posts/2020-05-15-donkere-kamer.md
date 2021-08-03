@@ -244,5 +244,5 @@ soms kan betrachten.
 Sun, Z., & Firestone, C. (2020). The Dark Room Problem. *Trends in
 Cognitive Sciences*. [https://doi.org/10.1016/j.tics.2020.02.006](https://doi.org/10.1016/j.tics.2020.02.006).
 
-Van de Cruys, S., Friston, K.J., & Clark, A. (2020) [Controlled optimism](http://www.sandervandecruys.be/2020_VandeCruysFristonClark_TiCS.be).
+Van de Cruys, S., Friston, K.J., & Clark, A. (2020) [Controlled optimism](http://www.sandervandecruys.be/pdf/2020_VandeCruysFristonClark_TiCS.pdf).
 *Trends in Cognitive Sciences*.
