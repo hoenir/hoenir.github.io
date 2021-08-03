@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Disentangling signal and noise in autism spectrum disorder"
 journal: "Brain & Cognition"
 description: ""
-link: https://goo.gl/IohNHo
+link: http://www.sandervandecruys.be/pdf/2016_VandeCruys-Brain_Cognition-Disentangling.pdf
 authors: "Van de Cruys, S., Van der Hallen, R., Wagemans, J."
 category: [work, journal]
 tags: [predictive mind, autism, predictive coding, prediction error, precision, perception, coherent motion, Bayes, precision]

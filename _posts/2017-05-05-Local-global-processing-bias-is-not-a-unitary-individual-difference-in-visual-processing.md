@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Local-global processing bias is not a unitary individual difference in visual processing"
 journal: "Vision Research"
 description: ""
-link: https://goo.gl/rl7mlB
+link: http://www.sandervandecruys.be/pdf/2017_Chamberlain-VisResearch-Local-global.pdf
 authors: "Chamberlain, R., Van der Hallen, R., Huygelier, H., Van de Cruys, S., & Wagemans, J."
 category: [work, journal]
 tags: [local-global, perception, perceptual style, individual differences]

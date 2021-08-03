@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Explaining hyper-sensitivity and hypo-responsivity in autism with a common predictive coding-based mechanism"
 journal: "Cognitive Neuroscience"
 description: ""
-link: http://bit.ly/2kGbeyh
+link: http://www.sandervandecruys.be/pdf/2019_VandeCruys_Perrykkad_Hohwy_Explaining_hyper_sensitivity_and_hyporesponsivity_in_autism.pdf
 authors: "Van de Cruys, S., Perrykkad, K. & Hohwy, J."
 category: [work, journal]
 tags: [predictive processing, autism, hyper-sensitivity, hypo-responsivity]

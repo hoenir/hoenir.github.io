@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Omgaan met onzekerheid binnen autisme"
 journal: "Wetenschappelijk Tijdschrift Autisme"
 description: ""
-link: https://goo.gl/gd7KLK
+link: http://www.sandervandecruys.be/pdf/2018_Van-de-Cruys_Evers_Wagemans_WTA.pdf
 authors: "Van de Cruys, S., Evers, K., Wagemans, J."
 category: [work, journal]
 tags: [uncertainty, predictive processing, autism]

@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Affective value in the predictive mind"
 journal: Philosophy and Predictive Processing
 description: ""
-link: https://goo.gl/fRRO4W
+link: http://www.sandervandecruys.be/pdf/2017_VandeCruys-PPP-Affective.pdf
 authors: "Van de Cruys, S."
 category: [work, journal]
 tags: [predictive mind, affect, prediction error, emotion, homeostasis, value, valence, dark room problem, reward, uncertainty]

@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Comparison of the determinants for positive and negative affect proposed by appraisal theories, goal-directed theories, and predictive processing theories"
 journal: "Current Opinion in Behavioral Sciences"
 description: ""
-link: https://bit.ly/3x5L5ZI
+link: http://www.sandervandecruys.be/pdf/2021_Moorsetal_CurrentOpinion.pdf
 authors: "Moors, A., Van de Cruys, S., & Pourtois, G."
 category: [work, journal]
 tags: [emotion, affect, goals, predictive processing]

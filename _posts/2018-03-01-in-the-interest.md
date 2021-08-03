@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "In the interest of saving time - a critique of discrete perception"
 journal: "Neuroscience of Consciousness"
 description: ""
-link: http://bit.ly/2Jkl9jA
+link: http://www.sandervandecruys.be/pdf/2018_Fekete-NC-in-the-interest.pdf
 authors: "Fekete, T., Van de Cruys, S., Ekroll, V., van Leeuwen, C."
 category: [work, journal]
 tags: [discrete perception, predictive processing, awareness]
