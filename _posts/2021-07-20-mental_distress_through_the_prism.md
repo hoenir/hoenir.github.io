@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Mental distress through the prism of predictive processing theory"
 journal: "Current Opinion in Psychology"
 description: ""
-link: https://bit.ly/3whmPDM
+link: http://www.sandervandecruys.be/pdf/2021_Van_de_Cruys_van_Dessel_COP.pdf
 authors: "Van de Cruys, S., & van Dessel, P."
 category: [work, journal]
 tags: [psychiatry, clinical psychology, psychotherapy, goals, affect, mental distress, predictive processing]
