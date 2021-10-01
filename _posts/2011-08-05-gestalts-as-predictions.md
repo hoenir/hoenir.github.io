@@ -5,6 +5,6 @@ journal: "Gestalt Theory"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2011_VandeCruys-GestaltTheory.pdf
 authors: "Van de Cruys, S., Wagemans, J."
-category: [publications,work, journal]
+category: [publications, work, journal]
 tags: [predictive mind, art, Gestalt, philosophy]
 ---
