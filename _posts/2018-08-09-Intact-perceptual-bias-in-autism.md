@@ -5,7 +5,7 @@ journal: "Scientific Reports"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2018_VandeCruys-SciReps_intact_perceptual.pdf
 authors: "Van de Cruys, S., Vanmarcke, S., Steyaert, J., Wagemans, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [orientation perception, psychophysics, predictive processing, divisive normalization, autism]
 ---
 

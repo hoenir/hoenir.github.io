@@ -5,7 +5,7 @@ journal: "Topoi"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2018_Constant-Topoi-Precise_worlds.pdf
 authors: "Constant, A., Bervoets, J., Hens, K., Van de Cruys, S."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [free energy principle, predictive processing, autism, ecological, self]
 ---
 

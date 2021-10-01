@@ -5,7 +5,7 @@ journal: "Scientific Reports"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2017_Vanmarcke_et_al-Scientific_Reports.pdf
 authors: "Vanmarcke, S., Van de Cruys, S., Moors, P., Wagemans, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [chasing, ASD, autism, animacy detection, visual search, social perception]
 ---
 

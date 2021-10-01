@@ -5,7 +5,7 @@ journal: "Physics of Life Reviews"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2018_VandeCruys_PhysicsofLifeRev_Upgrading_Gestalt_psychology.pdf
 authors: "Van de Cruys, S."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [free energy principle, predictive processing, Mooney images, preference, appreciation, psychoaesthetics, perceptual pleasure, Gestalt]
 ---
 

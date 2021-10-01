@@ -5,7 +5,7 @@ journal: "Cognitive Neuroscience"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2019_VandeCruys_Perrykkad_Hohwy_Explaining_hyper_sensitivity_and_hyporesponsivity_in_autism.pdf
 authors: "Van de Cruys, S., Perrykkad, K. & Hohwy, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [predictive processing, autism, hyper-sensitivity, hypo-responsivity]
 ---
 

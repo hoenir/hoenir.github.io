@@ -5,7 +5,7 @@ journal: "Wetenschappelijk Tijdschrift Autisme"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2020_Bervoets_Van_de_Cruys_WTA.pdf
 authors: "Bervoets, J., Van de Cruys, S."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [uncertainty, predictive processing, autism]
 ---
 

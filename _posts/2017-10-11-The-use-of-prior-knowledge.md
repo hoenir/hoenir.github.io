@@ -5,7 +5,7 @@ journal: "Clinical Psychological Science"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2017_Van-de-Cruys-et-al_Clin-Psych-Sci_Use-of-prior-knowledge.pdf
 authors: "Van de Cruys, S., Vanmarcke, S., Van de Put, I., Wagemans, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [ASD, autism, Perceptual inference, Mooney images, Two-tone images, Bayesian perception, Perceptual priors, Top-down]
 ---
 

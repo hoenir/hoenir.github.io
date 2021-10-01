@@ -5,7 +5,7 @@ journal: "Autism Research"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2021_VandeCruys_AutismResearch.pdf
 authors: "Van de Cruys, S., Lemmens, L., Sapey-Triomphe, L.-A., Chetverikov, A., Noens, I., & Wagemans, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [Autism spectrum disorder, ensemble perception, perceptual learning, visual search, predictive coding, Bayesian brain, summary statistics]
 ---
 

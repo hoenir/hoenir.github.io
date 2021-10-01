@@ -5,7 +5,7 @@ journal: "Neuroscience of Consciousness"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2018_Fekete-NC-in-the-interest.pdf
 authors: "Fekete, T., Van de Cruys, S., Ekroll, V., van Leeuwen, C."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [discrete perception, predictive processing, awareness]
 ---
 

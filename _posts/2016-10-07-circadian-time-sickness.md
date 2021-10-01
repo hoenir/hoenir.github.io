@@ -5,7 +5,7 @@ journal: "Trends in Neurosciences"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2016_vanEe_TINS_circadian.pdf
 authors: "van Ee, R., Van de Cruys, S., Schlangen, L.J.M., Vlaskamp, B.N.S."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [circadian time, body clock, precision, perception, Bayes, precision]
 ---
 

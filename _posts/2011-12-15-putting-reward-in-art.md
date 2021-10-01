@@ -5,6 +5,6 @@ journal: "i-Perception"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2011_VandeCruys-i-Perception_Putting_reward.pdf
 authors: "Van de Cruys, S., Wagemans, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [predictive mind, art, Gestalt, psychoaesthetics, affect, appreciation, philosophy]
 ---

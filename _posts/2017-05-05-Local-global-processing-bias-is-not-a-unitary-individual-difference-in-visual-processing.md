@@ -5,7 +5,7 @@ journal: "Vision Research"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2017_Chamberlain-VisResearch-Local-global.pdf
 authors: "Chamberlain, R., Van der Hallen, R., Huygelier, H., Van de Cruys, S., & Wagemans, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [local-global, perception, perceptual style, individual differences]
 ---
 

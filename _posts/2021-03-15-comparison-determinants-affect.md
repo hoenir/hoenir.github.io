@@ -5,7 +5,7 @@ journal: "Current Opinion in Behavioral Sciences"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2021_Moorsetal_CurrentOpinion.pdf
 authors: "Moors, A., Van de Cruys, S., & Pourtois, G."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [emotion, affect, goals, predictive processing]
 ---
 

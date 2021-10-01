@@ -5,7 +5,7 @@ journal: Philosophy and Predictive Processing
 description: ""
 link: http://www.sandervandecruys.be/pdf/2017_VandeCruys-PPP-Affective.pdf
 authors: "Van de Cruys, S."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [predictive mind, affect, prediction error, emotion, homeostasis, value, valence, dark room problem, reward, uncertainty]
 ---
 

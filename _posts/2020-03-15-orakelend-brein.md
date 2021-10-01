@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "De opkomst van het orakelend brein"
+journal: "Karakter Tijdschrift van Wetenschap"
+authors: "Van de Cruys, S."
 description: "Wist je dat wijngisten in hun vat de volgende stap van het wijnmaakproces al kunnen voorspellen? Elke stap in het proces van
 simpele druif naar gebotteld edel vocht komt met een aantal specifieke stresserende omstandigheden voor een gistcel..."
-category: [blog, moerstaal]
+category: [publications,blog, moerstaal]
 image: 
   feature: dageraad-hersenen_final.png
 tags: [schrijfsel, predictive processing, Karakter]

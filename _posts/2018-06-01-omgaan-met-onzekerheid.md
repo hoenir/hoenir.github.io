@@ -5,7 +5,7 @@ journal: "Wetenschappelijk Tijdschrift Autisme"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2018_Van-de-Cruys_Evers_Wagemans_WTA.pdf
 authors: "Van de Cruys, S., Evers, K., Wagemans, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [uncertainty, predictive processing, autism]
 ---
 

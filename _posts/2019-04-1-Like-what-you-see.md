@@ -5,7 +5,7 @@ journal: "Acta Psychologica"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2019_Boddez_Acta_Like_what_you_see.pdf
 authors: "Boddez, Y., Descheemaeker, M., Mertens, G., Truyts, A., Van de Cruys, S."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [aesthetics, art, generalization, evaluative priming]
 ---
 

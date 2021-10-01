@@ -5,7 +5,7 @@ journal: "Brain & Cognition"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2016_VandeCruys-Brain_Cognition-Disentangling.pdf
 authors: "Van de Cruys, S., Van der Hallen, R., Wagemans, J."
-category: [work, journal]
+category: [publications,work, journal]
 tags: [predictive mind, autism, predictive coding, prediction error, precision, perception, coherent motion, Bayes, precision]
 ---
 

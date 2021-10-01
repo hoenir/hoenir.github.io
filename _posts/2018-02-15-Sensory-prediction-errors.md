@@ -5,7 +5,7 @@ journal: "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2018_Goris-BiolPsychiatry.pdf
 authors: "Goris, J., Braem, S., Nijhof, A., Rigoni, D., Deschrijver, E., Van de Cruys, S., Wiersema, R., Brass, M"
-category: [work, journal]
+category: [publications,work, journal]
 tags: [uncertainty, predictive processing, mismatch negativity, autism]
 ---
 Background: Recent predictive coding accounts of autism spectrum disorder (ASD) suggest that a key deficit in ASD concerns the inflexibility in modulating local prediction errors as a function of global top-down expectations. As a direct test of this central hypothesis, we used electroencephalography to investigate whether local prediction error processing was less modulated by global context (i.e., global stimulus frequency) in ASD.
