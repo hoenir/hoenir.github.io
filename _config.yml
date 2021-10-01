@@ -25,8 +25,8 @@ tools:
 links:
   - title: About
     url: /about
-  - title: Work
-    url: /work
+  - title: Publications
+    url: /publications
   - title: Blog
     url: /moerstaal
 #  - title: C
