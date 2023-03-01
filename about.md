@@ -10,7 +10,7 @@ image:
 
 I’m a postdoctoral researcher in [Antwerp Social Lab](https://www.uantwerpen.be/nl/onderzoeksgroep/antwerp-social-lab/) at the University of Antwerp. I previously worked in the Brain & Cognition Unit at the University of Leuven on the [GestaltReVision](http://www.gestaltrevision.be) project. You can contact me [here](mailto:sandervandecruys@gmail.com).
 
-One of the reasons I get up in the morning (or rather: stay up late at night) is to gain fundamental insight in the sane and insane mind, and in the brain that realizes it. In my scientific work I'm guided by the view of the brain as a prediction engine, continuously and proactively anticipating incoming sensory inputs. I like how this view has deep consequences for the interplay between cognition and emotion. More on this in my academic [publications](/publications/index.html).
+One of the reasons I get up in the morning (or rather: stay up late at night) is to gain fundamental insight in the sane and insane mind, and in the brain that realizes it. In my scientific work I'm guided by the view of the brain as a prediction engine, continuously and proactively anticipating and constructing the experienced world. I like how this view has deep consequences for the interplay between cognition and emotion. More on this in my academic [publications](/publications/index.html).
 
 <p align="center">
    <img width="80" height="143" src="http://www.sandervandecruys.be/images/neurontreesnake.png">
