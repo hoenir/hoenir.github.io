@@ -342,7 +342,7 @@ biologische systemen en verklaart hun kenmerkende doelgerichtheid, het
 
 *Maar botst de leuze van de vermindering van voorspellingsfouten niet
 met onze verkenningszucht, onze zin voor creativiteit, onze drang naar
-volstrekte verrassing in de kunst en de moppen? Zie het [tweede deel](http://www.sandervandecruys.be/blog/moerstaal/donkere-kamer) van dit essay.*
+volstrekte verrassing in de kunst en de moppen? Zie het [tweede deel](https://sandervandecruys.be/publications/blog/moerstaal/donkere-kamer) van dit essay.*
 
 **Meer lezen**
 
