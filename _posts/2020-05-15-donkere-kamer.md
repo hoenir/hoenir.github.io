@@ -13,7 +13,7 @@ image:
   feature: "tumblr_o2laxgcmyl1u6x3h6o1_1280.jpg"
 ---
 
-Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-ontsnapping-uit-de-donkere-kame/) ([pdf](http://www.sandervandecruys.be/pdf/2020_Karakter70Van_de_Cruys.pdf)). Dit is deel 2 van een tweeluik, deel 1 vind je [hier](http://www.sandervandecruys.be/blog/moerstaal/orakelend-brein).
+Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-ontsnapping-uit-de-donkere-kame/) ([pdf](http://www.sandervandecruys.be/pdf/2020_Karakter70Van_de_Cruys.pdf)). Dit is deel 2 van een tweeluik, deel 1 vind je [hier](https://sandervandecruys.be/publications/blog/moerstaal/donkere-kamer/orakelend-brein).
 
 Om de eigen toekomst te produceren moet het brein
 noodzakelijkerwijs een voorspellend model van die toekomst aanleren en
