@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 title: "Insight in the conspiracist's mind"
-journal: "Preprint"
+journal: "Personality and Social Psychology Review"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2023_VandeCruys_insight-in-conspiracist-mind.pdf
 authors: "Van de Cruys, S., Bervoets, J., Gadsby, S., Gijbels, D. & Poels, K."
