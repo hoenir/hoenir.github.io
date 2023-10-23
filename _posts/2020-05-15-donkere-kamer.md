@@ -3,6 +3,7 @@ layout: post
 title: "De ontsnapping uit de donkere kamer"
 journal: "Karakter Tijdschrift van Wetenschap"
 Authors: "Van de Cruys, S."
+link: http://www.sandervandecruys.be/pdf/2020_Karakter70Van_de_Cruys.pdf
 description: "Volgens dichter en filosoof Paul Valéry (1871-1945) is het produceren
 van toekomst het doel van de hersenen. Het is precies dit idee dat
 zovele decennia later uitgewerkt en geformaliseerd wordt in de recente
