@@ -3,6 +3,7 @@ layout: post
 title: "De opkomst van het orakelend brein"
 journal: "Karakter Tijdschrift van Wetenschap"
 authors: "Van de Cruys, S."
+link: http://www.sandervandecruys.be/pdf/2020_Karakter69Van_de_Cruys.pdf
 description: "Wist je dat wijngisten in hun vat de volgende stap van het wijnmaakproces al kunnen voorspellen? Elke stap in het proces van
 simpele druif naar gebotteld edel vocht komt met een aantal specifieke stresserende omstandigheden voor een gistcel..."
 category: [publications,blog, moerstaal]
