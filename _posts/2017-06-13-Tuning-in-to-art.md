@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Tuning in to art: A predictive processing account of negative emotion in art"
 journal: Behavioral and Brain Sciences
 description: ""
-link: http://www.sandervandecruys.be/pdf/2017_VandeCruys-PPP-Affective.pdf
+link: http://www.sandervandecruys.be/pdf/2017_Van-de-Cruys-et-al_BBS_tuning_in_to_art.pdf
 authors: "Van de Cruys, S., Chamberlain, R., Wagemans, J."
 category: [publications,work, journal]
 tags: [predictive mind, affect, prediction error, emotion, art, reward, uncertainty]
