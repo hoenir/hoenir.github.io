@@ -4,7 +4,7 @@ title: "Aesthetics and predictive processing: grounds and prospects of a fruitfu
 journal: "Philosophical Transactions of The Royal Society B"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2023_Frascaroli-et-al-aesthetics-and-predictive-processing-grounds-and-prospects-of-a-fruitful-encounter.pdf
-authors: "Frascaroli, J, Leder, H., Brattico, E., and Van de Cruys, S."
+authors: "Frascaroli, J., Leder, H., Brattico, E., & Van de Cruys, S."
 category: [publications, work, journal]
 tags: [predictive processing, psychoaesthetics, neuroaesthetics, theme issue, philosophy of art, affect, art]
 ---

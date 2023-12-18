@@ -4,7 +4,7 @@ title: "Order and change in art: towards an active inference account of aestheti
 journal: "Philosophical Transactions of The Royal Society B"
 description: ""
 link: http://www.sandervandecruys.be/pdf/2023_Van-de-cruys-et-al--order-and-change-in-art-towards-an-active-inference-account-of-aesthetic-experience.pdf
-authors: "Van de Cruys, S., Frascaroli, J., Friston, K."
+authors: "Van de Cruys, S., Frascaroli, J., & Friston, K."
 category: [publications, work, journal]
 tags: [predictive processing, psychoaesthetics, neuroaesthetics, theme issue, philosophy of art, affect, art, curiosity, aha erlebnis, insight, epistemic arc]
 ---
