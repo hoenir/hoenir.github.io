@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ball Trajectory Animation</title>
+    <style>
+      canvas {
+        border: 1px solid #000;
+        display: block;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="world"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+    <script>
+      // Module aliases
+      var Engine = Matter.Engine,
+        Render = Matter.Render,
+        World = Matter.World,
+        Bodies = Matter.Bodies,
+        Body = Matter.Body;
+
+      // Create an engine and a renderer
+      var engine = Engine.create(),
+        world = engine.world,
+        render = Render.create({
+          element: document.body,
+          engine: engine,
+          canvas: document.getElementById("world"),
+          options: {
+            wireframes: false, // Set to false to see styled shapes
+            background: "#fff",
+          },
+        });
+
+      // Create ground, wall, and a ball
+      var ground = Bodies.rectangle(400, 390, 810, 60, { isStatic: true });
+      var wall = Bodies.rectangle(400, 300, 20, 180, { isStatic: true });
+      var ball = Bodies.circle(100, 300, 20, { restitution: 0.6 });
+
+      // Add all of the bodies to the world
+      World.add(engine.world, [ground, wall, ball]);
+
+      // Style the bodies
+      ground.render.fillStyle = "#060a19";
+      wall.render.fillStyle = "#8b2e16";
+      ball.render.fillStyle = "#c44d58";
+
+      // Run the engine and renderer
+      Engine.run(engine);
+      Render.run(render);
+
+      // Apply a more moderate force to see the ball and its trajectory
+      setTimeout(function () {
+        Body.applyForce(
+          ball,
+          { x: ball.position.x, y: ball.position.y },
+          { x: 0.06, y: -0.03 }
+        );
+      }, 1000); // Delaying the force application to ensure that the scene is rendered before the ball moves
+    </script>
+
+    <canvas id="world" width="800" height="400"></canvas>
+  </body>
+</html>
