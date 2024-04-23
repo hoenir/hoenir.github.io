@@ -41,7 +41,7 @@
       // Create ground, wall, and a ball
       var ground = Bodies.rectangle(400, 390, 810, 60, { isStatic: true });
       var wall = Bodies.rectangle(400, 300, 20, 180, { isStatic: true });
-      var ball = Bodies.circle(100, 300, 20, { restitution: 0.6 });
+      var ball = Bodies.circle(100, 300, 20, { restitution: 0 });
 
       // Add all of the bodies to the world
       World.add(engine.world, [ground, wall, ball]);
@@ -55,6 +55,30 @@
       Engine.run(engine);
       Render.run(render);
 
+
+      // Add collision event handling to the engine
+      Matter.Events.on(engine, "collisionStart", function (event) {
+        var pairs = event.pairs;
+      
+
+        // Loop over all pairs of colliding bodies
+        for (var i = 0; i < pairs.length; i++) {
+          var pair = pairs[i];
+
+          // Check if one of the colliding bodies is the ball and the other is the wall
+          if (
+            (pair.bodyA === ball && pair.bodyB === wall) ||
+            (pair.bodyA === wall && pair.bodyB === ball)
+          ) {
+            // Set both the velocity and angular velocity to 0 to stop the ball immediately upon collision with the wall
+            Matter.Body.setVelocity(ball, { x: 0, y: 0 });
+            Matter.Body.setAngularVelocity(ball, 0);
+
+          }
+        }
+      });
+
+      
       // Apply a more moderate force to see the ball and its trajectory
       setTimeout(function () {
         Body.applyForce(
@@ -63,6 +87,8 @@
           { x: 0.06, y: -0.03 }
         );
       }, 1000); // Delaying the force application to ensure that the scene is rendered before the ball moves
+
+      
     </script>
 
     <canvas id="world" width="800" height="400"></canvas>
