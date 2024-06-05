@@ -29,9 +29,9 @@ links:
     url: /publications
   - title: Blog
     url: /moerstaal
-#  - title: C
-#    url: http://coletownsend.com
-#    external: true
+  - title: Substack
+    url: http://thereisnoreward.com
+    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Brussels
