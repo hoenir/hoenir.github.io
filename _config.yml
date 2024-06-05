@@ -31,7 +31,7 @@ links:
     url: /moerstaal
   - title: Substack
     url: http://thereisnoreward.com
-    # external: true
+    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Brussels
