@@ -12,6 +12,7 @@ owner:
   twitter:        sandervdc
   github:         hoenir
   instagram:      sandvdc
+  linkedin:       https://www.linkedin.com/in/sander-van-de-cruys-18b74431/
   dribbble:
   disqus:
   location:       "Ramsel, Belgium"
@@ -27,10 +28,10 @@ links:
     url: /about
   - title: Publications
     url: /publications
-  - title: Newsletter
+  - title: Substack
     url: http://thereisnoreward.com
     external: true
-  - title: Schrijfsels (Dutch)
+  - title: Moerstaal
     url: /moerstaal
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
