@@ -9,7 +9,6 @@ owner:
   avatar:         avatar.png
   bio:            "Professional Prutser"
   email:          sander.vandecruys@gmail.com
-  twitter:        sandervdc
   github:         hoenir
   instagram:      sandvdc
   linkedin:       https://www.linkedin.com/in/sander-van-de-cruys-18b74431/
@@ -29,7 +28,7 @@ links:
   - title: Publications
     url: /publications
   - title: Substack
-    url: http://thereisnoreward.com
+    url: https://www.thereisnoreward.com
     external: true
   - title: Moerstaal
     url: /moerstaal

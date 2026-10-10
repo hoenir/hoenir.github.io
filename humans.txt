@@ -4,7 +4,7 @@
 /* TEAM */
 Creator: {{ site.owner.name }}
 Contact: {{ site.owner.email }}
-Twitter: {{ site.owner.twitter }}
+LinkedIn: {{ site.owner.linkedin }}
 Location: {{ site.owner.location }}
                            
 /* THANKS */                           

@@ -11,7 +11,7 @@ image:
 
 Je kan het hieronder zelf proberen. Kijk aandachtig naar de bewegende lijnen en let op de richting waarin ze bewegen, links of rechts.
 
-<iframe src="http://www.youtube.com/embed/qxt2Uo_GuXI" height="259" width="460" allowfullscreen="" frameborder="0" scrolling="no" align="middle"></iframe>
+<iframe src="https://www.youtube.com/embed/qxt2Uo_GuXI" height="259" width="460" allowfullscreen="" frameborder="0" scrolling="no" align="middle"></iframe>
 
 De grootte van de cirkelvormige lijnpatronen werd door de onderzoekers afgewisseld en vervolgens keken ze hoeveel tijd mensen nodig hadden om de juiste richting van de beweging te onderscheiden. Mensen met een hoog IQ hadden genoeg aan heel korte presentatie van de beweging, maar enkel bij de kleine cirkelmaat. Bij de grote cirkels hadden zij een veel langere aanbieding nodig om de juiste richting te zien. Dat nadeel voor grote cirkels was veel minder aanwezig bij mensen met lager IQ. Volgens de onderzoekers zijn mensen met hoog IQ veel beter in het uitkiezen van relevante informatie in hun gezichtsveld en het onderdrukken van wat niet relevant is. Grote achtergrondbewegingen zijn in het dagelijks leven meestal minder relevant, omdat ze vaak veroorzaakt worden door je eigen beweging. Als je loopt verandert bijvoorbeeld je hele visuele veld. De hersenen van mensen met een hoog IQ onderdrukken de achtergrondbeweging mogelijk efficiënter, waardoor ze het wel moeilijker krijgen bij de grote cirkels van deze test.(<a href="http://www.bcs.rochester.edu/people/Duje/papers/13_Melnick_IQ_CB.pdf">studie</a>)
 

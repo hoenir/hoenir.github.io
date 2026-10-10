@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Preferences need inferences: Learning, valuation, and curiosity in aesthetic experience"
 journal: "Routledge International Handbook of Neuroaesthetics"
 description: ""
-link: http://www.sandervandecruys.be/pdf/2021_VandeCruys_preferences_need_inferences.pdf
+link: https://sandervandecruys.be/pdf/2021_VandeCruys_preferences_need_inferences.pdf
 authors: "Van de Cruys, S., Bervoets, J., & Moors, A."
 category: [publications,work, journal]
 tags: [curiosity, aesthetic experience, uncertainty,learning, affect, predictive processing, art]

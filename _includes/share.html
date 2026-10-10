@@ -1,0 +1,13 @@
+{% capture share_url %}{{ site.url }}{{ page.url }}{% endcapture %}
+      <button class="share" type="button" data-share-open aria-haspopup="dialog">Share</button>
+      <dialog class="share-dialog" aria-labelledby="share-dialog-title">
+        <form method="dialog" class="share-close-form">
+          <button class="share-close" aria-label="Close">&times;</button>
+        </form>
+        <p class="share-dialog-title" id="share-dialog-title">Share this page</p>
+        <ul class="share-options">
+          <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url | url_encode }}" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://x.com/intent/post?text={{ page.title | url_encode | replace: '+', '%20' }}&amp;url={{ share_url | url_encode }}" target="_blank" rel="noopener">X</a></li>
+          <li><a href="mailto:?subject={{ page.title | url_encode | replace: '+', '%20' }}&amp;body={{ share_url | url_encode }}">Email</a></li>
+        </ul>
+      </dialog>

@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Assessing spontaneous categorical processing of visual shapes via frequency-tagging EEG"
 journal: "Journal of Neuroscience"
 description: ""
-link: http://www.sandervandecruys.be/pdf/2024_Van-Overwalle_et-al_Journal-of-neuroscience.pdf
+link: https://sandervandecruys.be/pdf/2024_Van-Overwalle_et-al_Journal-of-neuroscience.pdf
 authors: "Van Overwalle, J., Van der Donck, S., Van de Cruys, S., Boets, B., & Wagemans, J."
 category: [publications, work, journal]
 tags: [categorization, frequency-tagging, EEG, learning, perception]

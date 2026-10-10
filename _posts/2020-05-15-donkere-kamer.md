@@ -3,7 +3,7 @@ layout: post
 title: "De ontsnapping uit de donkere kamer"
 journal: "Karakter Tijdschrift van Wetenschap"
 Authors: "Van de Cruys, S."
-link: http://www.sandervandecruys.be/pdf/2020_Karakter70Van_de_Cruys.pdf
+link: https://sandervandecruys.be/pdf/2020_Karakter70Van_de_Cruys.pdf
 description: "Volgens dichter en filosoof Paul Valéry (1871-1945) is het produceren
 van toekomst het doel van de hersenen. Het is precies dit idee dat
 zovele decennia later uitgewerkt en geformaliseerd wordt in de recente
@@ -14,7 +14,7 @@ image:
   feature: "tumblr_o2laxgcmyl1u6x3h6o1_1280.jpg"
 ---
 
-Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-ontsnapping-uit-de-donkere-kame/) ([pdf](http://www.sandervandecruys.be/pdf/2020_Karakter70Van_de_Cruys.pdf)). Dit is deel 2 van een tweeluik, deel 1 vind je [hier](https://sandervandecruys.be/publications/blog/moerstaal/orakelend-brein).
+Dit artikel verscheen eerder in het [tijdschrift Karakter](https://www.tijdschriftkarakter.be/de-ontsnapping-uit-de-donkere-kame/) ([pdf](https://sandervandecruys.be/pdf/2020_Karakter70Van_de_Cruys.pdf)). Dit is deel 2 van een tweeluik, deel 1 vind je [hier](https://sandervandecruys.be/publications/blog/moerstaal/orakelend-brein).
 
 Om de eigen toekomst te produceren moet het brein
 noodzakelijkerwijs een voorspellend model van die toekomst aanleren en
@@ -53,7 +53,7 @@ het landschap dat de theorie tekent eerder een woestijnlandschap wordt,
 een verarmde voorstelling van ons mentale leven, waarin geen plaats is
 voor verlangens of emoties. Alles wordt gereduceerd tot voorspellingen
 met het reduceren van voorspellingsfouten als enige doel. De theorie mag
-het leren en onze waarneming dan wel goed verklaren (zie [deel1](http://www.sandervandecruys.be/blog/moerstaal/orakelend-brein)),
+het leren en onze waarneming dan wel goed verklaren (zie [deel1](/publications/blog/moerstaal/orakelend-brein)),
 ze schiet schromelijk te kort in "zaken van het hart". Bovendien, zo
 gaan de critici verder, kan de theorie enkel gewoontedieren
 voortbrengen. Net zoals volgens velen de sociale media ons zouden
@@ -114,7 +114,7 @@ De letterlijke donkere kamer valt het gemakkelijkst af te serveren: zo'n
 kamer blijft in de praktijk niet lang voorspelbaar voor een organisme
 dat ook evolutionair bepaalde, homeostatische verwachtingen heeft
 (bijvoorbeeld over het gevoed zijn, of een bepaald verwacht glucosepeil
-in het bloed; zie [deel1](http://www.sandervandecruys.be/blog/moerstaal/orakelend-brein)). Er bestaan echter wel 'wezens van de
+in het bloed; zie [deel1](/publications/blog/moerstaal/orakelend-brein)). Er bestaan echter wel 'wezens van de
 duisternis': eencelligen die op zoek gaan naar duisternis
 (*skototroop*), omdat dit in hun leefomgeving nu eenmaal samengaat met
 de aanwezigheid van vocht en voedingsstoffen. Het gaat dan opnieuw om
@@ -139,7 +139,7 @@ het verklaren van onze zucht naar nieuwigheid, onze zin voor
 creativiteit, onze drang naar volstrekte verrassing. Toch zit ook dit
 vervat in de theorie van de predictieve verwerking. Goed voorspellen
 betekent ook voorspellen wanneer je meer informatie nodig hebt om goede
-voorspellingen te kunnen maken (zie [deel1](http://www.sandervandecruys.be/blog/moerstaal/orakelend-brein)). Dat wil zeggen dat,
+voorspellingen te kunnen maken (zie [deel1](/publications/blog/moerstaal/orakelend-brein)). Dat wil zeggen dat,
 in een omgeving die je nog niet goed kent, een verkennende actie erg
 belangrijk kan zijn, omdat ze als doel heeft meer van de voorspelbare
 structuur van de omgeving te ontsluiten, en dus kleinere
@@ -247,5 +247,5 @@ soms kan betrachten.
 Sun, Z., & Firestone, C. (2020). The Dark Room Problem. *Trends in
 Cognitive Sciences*. [https://doi.org/10.1016/j.tics.2020.02.006](https://doi.org/10.1016/j.tics.2020.02.006).
 
-Van de Cruys, S., Friston, K.J., & Clark, A. (2020) [Controlled optimism](http://www.sandervandecruys.be/pdf/2020_VandeCruysFristonClark_TiCS.pdf).
+Van de Cruys, S., Friston, K.J., & Clark, A. (2020) [Controlled optimism](https://sandervandecruys.be/pdf/2020_VandeCruysFristonClark_TiCS.pdf).
 *Trends in Cognitive Sciences*.

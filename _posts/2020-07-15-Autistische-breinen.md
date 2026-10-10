@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Autistische breinen praten over het autistische brein"
 journal: "Wetenschappelijk Tijdschrift Autisme"
 description: ""
-link: http://www.sandervandecruys.be/pdf/2020_Bervoets_Van_de_Cruys_WTA.pdf
+link: https://sandervandecruys.be/pdf/2020_Bervoets_Van_de_Cruys_WTA.pdf
 authors: "Bervoets, J., Van de Cruys, S."
 category: [publications,work, journal]
 tags: [uncertainty, predictive processing, autism]

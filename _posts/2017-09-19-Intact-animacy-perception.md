@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Intact animacy perception during chase detection in ASD"
 journal: "Scientific Reports"
 description: ""
-link: http://www.sandervandecruys.be/pdf/2017_Vanmarcke_et_al-Scientific_Reports.pdf
+link: https://sandervandecruys.be/pdf/2017_Vanmarcke_et_al-Scientific_Reports.pdf
 authors: "Vanmarcke, S., Van de Cruys, S., Moors, P., Wagemans, J."
 category: [publications,work, journal]
 tags: [chasing, ASD, autism, animacy detection, visual search, social perception]

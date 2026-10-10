@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "The Facts or the Story? It Takes Both to Sensitize People About Unknown Health Hazards"
 journal: "Journal of Health Communication"
 description: ""
-link: http://www.sandervandecruys.be/pdf/2023_Jheng-et-al_The-Facts-or-the-Story.pdf
+link: https://sandervandecruys.be/pdf/2023_Jheng-et-al_The-Facts-or-the-Story.pdf
 authors: "Jheng, Y.-L., Van de Cruys, S., Catrysse, L., Vandebosch, H., Gijbels, D., & Poels, K."
 category: [publications, work, journal]
 tags: [health communication, narrative, story, text genre, emotion, affect]

@@ -545,6 +545,9 @@ header.site-header nav {
         text-align: center;
         display: block;
         margin: 0 auto;
+        background: none;
+        cursor: pointer;
+        line-height: inherit;
         width: 76px;
         font-size: $fs5;
         font-family: $sans;
@@ -555,7 +558,7 @@ header.site-header nav {
         color: $grey-light;
         border: 2px solid transparentize($grey-light,.3);
         @include br(4px);
-        &:hover {
+        &:hover, &:focus-visible {
             color: $link;
             border-color: transparentize($link,.3);
             @include transit(all,.2s,ease)
@@ -660,8 +663,82 @@ footer {
     }
 }
 
-.disqus {
-    margin-top: $lh*3;
+/* Share dialog */
+.share-dialog {
+    position: fixed;
+    width: calc(100% - 32px);
+    max-width: 340px;
+    padding: $lh $lh $lh*0.75;
+    border: none;
+    @include br(6px);
+    background: $white;
+    color: $black;
+    font-family: $sans;
+    box-shadow: 0 12px 40px rgba(0,0,0,.25);
+
+    &::backdrop {
+        background: rgba(34,34,34,.6);
+    }
+
+    .share-dialog-title {
+        margin: 0 0 $lh/2;
+        font-family: $serif;
+        font-style: italic;
+        font-size: $fs4;
+        line-height: $lh;
+        text-align: center;
+    }
+
+    .share-close-form {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        margin: 0;
+    }
+
+    .share-close {
+        padding: 4px 10px;
+        border: none;
+        background: none;
+        font-size: 28px;
+        line-height: 1;
+        color: $grey-medium;
+        cursor: pointer;
+        &:hover, &:focus-visible {
+            color: $black;
+        }
+    }
+
+    ul.share-options {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            margin: 0 0 $lh/3;
+            padding: 0;
+            list-style: none;
+            font-size: $fs5;
+            line-height: $lhsmall;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        a {
+            display: block;
+            padding: 10px;
+            border: 2px solid $grey-light;
+            @include br(4px);
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: $black;
+            &:hover, &:focus-visible {
+                color: $link;
+                border-color: $link;
+            }
+        }
+    }
 }
 
 

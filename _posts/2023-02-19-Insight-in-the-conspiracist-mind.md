@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Insight in the conspiracist's mind"
 journal: "Personality and Social Psychology Review"
 description: ""
-link: http://www.sandervandecruys.be/pdf/2023_VandeCruys_insight-in-conspiracist-mind.pdf
+link: https://sandervandecruys.be/pdf/2023_VandeCruys_insight-in-conspiracist-mind.pdf
 authors: "Van de Cruys, S., Bervoets, J., Gadsby, S., Gijbels, D. & Poels, K."
 category: [publications, work, journal]
 tags: [aha experience, conspiracy theories, curiosity, epistemic trust, information-seeking, insight, metacognition, metascience, predictive processing, processing fluency, conspiracy mentality]
