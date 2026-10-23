@@ -28,7 +28,7 @@
                     {%- if page.publications %}
                     <p class="authors">{{ post.authors }}</p>
                     {%- else %}
-                    <p>{{ post.description | default: post.content | strip_html | strip_newlines | truncate: 120 }}</p>
+                    <p>{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
                     {%- endif %}
                   </div>
                 </li>
