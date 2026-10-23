@@ -5,7 +5,7 @@ description: "Een poos geleden pleegde een kennis van een vriendin van me zelfmo
 category: [blog, moerstaal]
 tags: [wetenschapsjournalistiek, zelfmoord]
 image:
-  feature: "end.png"
+  feature: "end.jpg"
 ---
 
 

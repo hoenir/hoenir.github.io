@@ -5,7 +5,7 @@ title: About
 description:
 tags: [about, sander]
 image:
-  feature: https://lh3.googleusercontent.com/sKLuoGN2IoG2oBCJ2mZ6DtDDIMoYhcuB-h9pHo64xBpWgGej3k99ko7MGd67r1HVETU36alSKiWQl6kUhP3HoGzAeJWqRZln0jlt_whE9mUPFRy9BoUoK5HCblqz9c89stWcBOkdOAY=w2400
+  feature: about.jpg
 ---
 
 I’m an Alexander von Humboldt Research Fellow at the [Leibniz Institute for Psychology](https://leibniz-psychology.org/en/). Previously, I worked in the Brain & Cognition Unit at the University of Leuven on the [GestaltReVision](https://www.gestaltrevision.be) project and in the [Antwerp Social Lab](https://www.uantwerpen.be/nl/onderzoeksgroep/antwerp-social-lab/) at the University of Antwerp. You can contact me [here](mailto:sander.vandecruys@gmail.com).
