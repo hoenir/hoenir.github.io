@@ -1,0 +1,41 @@
+{%- comment -%}
+  Shared post/page body. Params:
+    default_hero  image shown when the page has no image.feature
+    light_overlay dark header with a lighter overlay on the hero
+    fulltext      show a "Fulltext link" to page.link
+{%- endcomment -%}
+{%- assign hero = page.image.feature | default: include.default_hero -%}
+{%- if hero -%}
+  {%- unless hero contains '://' -%}{%- assign hero = hero | prepend: '/images/' | relative_url -%}{%- endunless -%}
+  {%- if include.light_overlay -%}{% include head.html dark=true %}{%- else -%}{% include head.html %}{%- endif %}
+
+<section class="article">
+  <div class="overlay{% if include.light_overlay %} overlay-lighter{% endif %}"></div>
+  <div class="featured-image" style="background-image: url({{ hero }})"></div>
+{%- else -%}
+  {% include head.html dark=true %}
+
+<section class="article pad-top">
+{%- endif %}
+
+      <article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+            <h1>{{ page.title }}</h1>
+            <p class="date">{{ page.date | date: "%b %d, %Y" }}</p>
+            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
+            {%- if include.fulltext and page.link %}
+            <p class="intro"><a href="{{ page.link }}">Fulltext link</a></p>
+            {%- endif %}
+          </hgroup>
+        </header>
+
+        {{ content }}
+
+      {% include share.html %}
+
+      </article>
+    </section>
+</div>
+
+{% include footer.html %}

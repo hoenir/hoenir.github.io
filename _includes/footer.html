@@ -1,15 +1,17 @@
 <div class="push"></div>
   <footer>
     <aside class="wrap">
-      <ol class="prev-posts">
+      <div class="prev-posts">
         <p class="list-title">Recent Posts</p>
-        {% for post in site.posts limit:3 %} <!-- for1 -->
+        <ol>
+        {% for post in site.posts limit:3 %}
             <li>
-              <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
+              <span class="recent-title"><a href="{{ post.url | relative_url }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
             </li>
         {% endfor %}
       </ol>
+      </div>
 
       <div class="social">
         <ul>
@@ -33,12 +35,8 @@
     <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="https://jekyllrb.com">Jekyll</a> using the <a href="https://github.com/ColeTownsend/Balzac-for-Jekyll">Balzac</a> theme.</small>
   </footer>
 
-  <!-- If they're out, get some from the cellar -->
-  <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-  <script src="{{ site.url }}/assets/js/retina.min.js"></script>
-
   <!-- Custom JS -->
-  <script src="{{ site.url }}/assets/js/scripts.js"></script>
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 
 
   </body>

@@ -1,4 +1,5 @@
 ---
+lang: nl
 layout: post
 title: "Een pintje om beter te onthouden?"
 description: "Studenten hebben er net een periode van geheelonthouding op zitten. Alcohol in de blok is uit den boze, zo gaat het. Gek genoeg ligt dat ietsje anders."

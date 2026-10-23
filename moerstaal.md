@@ -1,5 +1,6 @@
 ---
-layout: moerstaal
+layout: archive
+list_category: moerstaal
 title: "Een gefleste geest  |  A bottled spirit"
 permalink: /moerstaal/index.html
 tags: [nederlandstalig, dutch, moedertaal, blog]

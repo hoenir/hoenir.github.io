@@ -1,4 +1,5 @@
 ---
+lang: nl
 layout: post
 title: "De opkomst van het orakelend brein"
 journal: "Karakter Tijdschrift van Wetenschap"

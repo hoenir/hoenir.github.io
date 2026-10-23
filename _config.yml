@@ -1,7 +1,7 @@
 title:            Sander Van de Cruys
 tagline:          Don't panic.
 description:      My corner of the internet
-canonical:        sandervandecruys.be
+url:              https://sandervandecruys.be
 
 # Owner/author information
 owner:
@@ -13,7 +13,6 @@ owner:
   instagram:      sandvdc
   linkedin:       https://www.linkedin.com/in/sander-van-de-cruys-18b74431/
   dribbble:
-  disqus:
   location:       "Ramsel, Belgium"
 
 tools:
@@ -33,6 +32,13 @@ links:
   - title: Moerstaal
     url: /moerstaal
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  posts_limit: 20
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Brussels
 future:      true
@@ -44,14 +50,6 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 sass:
     style: :compressed
@@ -60,4 +58,4 @@ sass:
 permalink:   /:categories/:title
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "vendor"]

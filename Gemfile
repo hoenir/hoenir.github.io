@@ -1,6 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'jekyll-minibundle'
-gem 'coderay'
-gem 'rake'
+# Same versions GitHub Pages uses: https://pages.github.com/versions/
+gem "github-pages", group: :jekyll_plugins
+gem "webrick"

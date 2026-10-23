@@ -1,4 +1,5 @@
 ---
+lang: nl
 layout: post-no-feature
 title: "Maakt het internet ons stapelgek?"
 description: "Al van toen ik als nieuwsgierige tiener wekelijks Knack doorbladerde tot aan de wetenschapspagina's is het weekblad voor mij een baken van degelijke wetenschapsjournalistiek. Helaas, daar gaat weer een jeugdicoon."

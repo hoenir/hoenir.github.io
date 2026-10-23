@@ -1,4 +1,5 @@
 ---
+lang: nl
 layout: post-no-feature
 title: "Zeg eens Goooooooogle!"
 description: "Verdachte rode vlekjes op je arm? Een steeds weer opduikende, onverklaarbare buikpijn? Wie kan er de google-reflex dan nog bedwingen? Even je symptomen oplijsten en hupsakee, google spuit een stortvloed van informatie over mogelijke aandoeningen onze huiskamer binnen. Als we kunnen voortgaan op Nederlands en Amerikaans onderzoek, zoeken steeds meer mensen hun toevlucht tot een zoekrobot om hun kleine en grote kwalen te verklaren en verhelpen. En waarom ook niet?"

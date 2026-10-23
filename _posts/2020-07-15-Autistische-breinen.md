@@ -1,4 +1,5 @@
 ---
+lang: nl
 layout: post-no-feature
 title: "Autistische breinen praten over het autistische brein"
 journal: "Wetenschappelijk Tijdschrift Autisme"

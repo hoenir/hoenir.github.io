@@ -1,4 +1,5 @@
 ---
+lang: nl
 layout: post
 title: "De ontsnapping uit de donkere kamer"
 journal: "Karakter Tijdschrift van Wetenschap"

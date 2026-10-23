@@ -1,4 +1,5 @@
 ---
+lang: nl
 layout: post
 title: "Slim gezien: een visueel intelligentietestje"
 description: "Klaar voor een klein intelligentietestje? Heel klein, zo blijkt. Waar een normale intelligentietest gemakkelijk meer dan een uur duurt, beweren onderzoekers uit een studie van afgelopen maand dat je een heel goed idee kan krijgen van iemands intelligentie met een simpele visuele test."

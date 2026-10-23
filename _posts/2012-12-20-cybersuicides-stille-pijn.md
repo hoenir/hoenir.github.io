@@ -1,4 +1,5 @@
 ---
+lang: nl
 layout: post
 title: "De cybersuicides: de stille pijn achter statistieken"
 description: "Een poos geleden pleegde een kennis van een vriendin van me zelfmoord. 's Anderendaags kamde de politie haar computer uit en wat bleek: de avond voordien had ze inderdaad het web afgespeurd naar manieren om zichzelf van het leven te beroven."

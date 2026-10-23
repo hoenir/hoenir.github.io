@@ -1,48 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description }}">
-<meta name="keywords" content="{{ page.tags | join: ', ' }}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% include seo.html %}
+{% feed_meta %}
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:wght@400;700&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/i.css' | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
 
-<meta property="og:locale" content="en_US">
-<meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
-<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
-
-
-<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Type -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ site.url }}/assets/css/entypo.css" media="all">
-
-<!-- In order to use Calendas Plus, you must first purchase it. Then, create a font-face package using FontSquirrel.
-<link rel='stylesheet' href='{{ site.url }}/assets/cal.css' media='all' />
--->
-
-
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/i.css">
-
-<!-- Fresh Squeezed jQuery -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-<meta http-equiv="cleartype" content="on">
-
-<!-- Load Modernizr -->
-<script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBPZHHM1PP"></script>
 <script>
@@ -52,30 +21,21 @@
 
   gtag('config', 'G-FBPZHHM1PP');
 </script>
-
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
-
 </head>
 <body>
 <div id="bump">
-    <header class="site-header">
+    <header class="site-header{% if include.dark %} darken{% endif %}">
       <div class="wrap">
-        <hgroup>
-          <h1><a href="/">{{ site.title }}</a></h1>
-        </hgroup>
-        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
-        <nav role="navigation">
+        <div class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+        <button class="menu" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </button>
+        <nav id="site-nav" aria-label="Main">
           <ul>
-            <li>
-              <a href="/" title="{{ site.title }}">Home</a>
-            </li>
-            
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
             {% for link in site.links %}
-                <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+            <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.external %} target="_blank" rel="noopener"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}
-
           </ul>
         </nav>
       </div>
