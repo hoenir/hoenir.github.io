@@ -20,7 +20,7 @@
                   <div class="deets">
                     {%- if page.publications %}
                     <p class="journal">{{ post.journal }}</p>
-                    <h2><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}">{{ post.title }}</a></h2>
+                    <h2><a href="{% if post.link and post.paper == nil %}{{ post.link }}{% else %}{{ post.url | relative_url }}{% endif %}">{{ post.title }}</a></h2>
                     {%- else %}
                     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
                     {%- endif %}
