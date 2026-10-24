@@ -1,0 +1,89 @@
+{%- comment -%}
+  Online version of a publication. The body and table of contents are rendered by
+  tools/build_papers.py from _papers/<page.paper>/ into _includes/papers/.
+  The post's own content is the abstract.
+{%- endcomment -%}
+{%- assign first_word = page.title | split: ' ' | first | slugify -%}
+{%- assign bibkey = page.author_list[0].family | slugify | remove: '-' | append: page.year | append: first_word -%}
+{% include head.html dark=true %}
+
+<section class="article pad-top paper">
+  <div class="paper-layout">
+    <aside class="paper-aside">
+      <nav class="paper-toc" aria-label="Contents">
+        <p class="paper-label">Contents</p>
+        {% include papers/{{ page.paper }}-toc.html %}
+      </nav>
+    </aside>
+
+    <article class="paper-main">
+      <header class="paper-header">
+        <p class="paper-label">{{ page.journal }} &middot; {{ page.year | default: page.date | date: "%Y" }}</p>
+        <h1>{{ page.title }}</h1>
+        <p class="paper-authors">
+          {%- for a in page.author_list -%}
+            {%- if forloop.last and forloop.length > 1 %} &amp; {% elsif forloop.index > 1 %}, {% endif -%}
+            {{ a.given }} {{ a.family }}{% if page.affiliations.size > 1 %}<sup>{{ a.affiliation }}</sup>{% endif %}
+          {%- endfor -%}
+        </p>
+        {%- if page.affiliations %}
+        <ol class="paper-affiliations">
+          {%- for aff in page.affiliations %}
+          <li>{{ aff }}</li>
+          {%- endfor %}
+        </ol>
+        {%- endif %}
+        <div class="paper-actions">
+          {%- if page.link %}
+          <a class="paper-button paper-button-primary" href="{{ page.link }}">Download PDF</a>
+          {%- endif %}
+          {%- if page.doi %}
+          <a class="paper-button" href="https://doi.org/{{ page.doi }}">Publisher version</a>
+          {%- endif %}
+          <button class="paper-button" type="button" data-cite-open aria-haspopup="dialog">Cite</button>
+          {% include share.html %}
+        </div>
+      </header>
+
+      <section class="paper-abstract" id="abstract">
+        <h2>Abstract</h2>
+        {{ content }}
+      </section>
+
+      <details class="paper-toc paper-toc-mobile">
+        <summary class="paper-label">Contents</summary>
+        {% include papers/{{ page.paper }}-toc.html %}
+      </details>
+
+      <div class="paper-body">
+        {% include papers/{{ page.paper }}.html %}
+      </div>
+    </article>
+  </div>
+
+  <dialog class="share-dialog cite-dialog" aria-labelledby="cite-dialog-title">
+    <form method="dialog" class="share-close-form">
+      <button class="share-close" aria-label="Close">&times;</button>
+    </form>
+    <p class="share-dialog-title" id="cite-dialog-title">Cite this article</p>
+    <p class="cite-format">APA</p>
+    <p class="cite-text" id="cite-apa">{{ page.authors }} ({{ page.year }}). {{ page.title }}. <em>{{ page.journal }}{% if page.volume %}, {{ page.volume }}{% endif %}</em>{% if page.article_number %}, {{ page.article_number }}{% endif %}.{% if page.doi %} https://doi.org/{{ page.doi }}{% endif %}</p>
+    <button class="paper-button" type="button" data-copy="cite-apa">Copy</button>
+    <p class="cite-format">BibTeX</p>
+{%- assign lb = '{' -%}{%- assign rb = '}' -%}
+<pre class="cite-text" id="cite-bibtex">@article{{ lb }}{{ bibkey }},
+  author  = {{ lb }}{% for a in page.author_list %}{{ a.family }}, {{ a.given }}{% unless forloop.last %} and {% endunless %}{% endfor %}{{ rb }},
+  title   = {{ lb }}{{ page.title }}{{ rb }},
+  journal = {{ lb }}{{ page.journal }}{{ rb }},
+  year    = {{ lb }}{{ page.year }}{{ rb }},{% if page.volume %}
+  volume  = {{ lb }}{{ page.volume }}{{ rb }},{% endif %}{% if page.article_number %}
+  pages   = {{ lb }}{{ page.article_number }}{{ rb }},{% endif %}{% if page.doi %}
+  doi     = {{ lb }}{{ page.doi }}{{ rb }}{% endif %}
+{{ rb }}</pre>
+    <button class="paper-button" type="button" data-copy="cite-bibtex">Copy</button>
+  </dialog>
+</section>
+</div>
+
+<script src="{{ '/assets/js/paper.js' | relative_url }}" defer></script>
+{% include footer.html %}

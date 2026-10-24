@@ -58,4 +58,4 @@ sass:
 permalink:   /:categories/:title
 
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "vendor"]
+exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "vendor", "tools"]

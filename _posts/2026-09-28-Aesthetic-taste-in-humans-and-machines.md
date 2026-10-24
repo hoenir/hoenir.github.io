@@ -1,10 +1,22 @@
 ---
-layout: post-no-feature
+layout: paper
+paper: aesthetic-taste
 title: "Aesthetic taste in humans and machines"
 journal: "Current Opinion in Psychology"
 description: ""
 link: https://sandervandecruys.be/pdf/2026_Piovesan-COPS_Aesthetic_taste.pdf
 authors: "Piovesan, F., Frascaroli, J., & Van de Cruys, S."
+author_list:
+  - { given: Francesca, family: Piovesan, affiliation: 1 }
+  - { given: Jacopo, family: Frascaroli, affiliation: 1 }
+  - { given: Sander, family: Van de Cruys, affiliation: 2 }
+affiliations:
+  - "BIP (BraIn Plasticity and Behaviour Changes) Research Group, Department of Psychology, University of Turin, Italy"
+  - "Leibniz Institute for Psychology, Trier, Germany"
+year: 2027
+volume: 73
+article_number: 102461
+doi: 10.1016/j.copsyc.2026.102461
 category: [publications, work, journal]
 tags: [aesthetic taste, psychoaesthetics, predictive processing, artificial intelligence, AI, sensitivity, valence, normativity, art]
 ---

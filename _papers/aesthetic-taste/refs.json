@@ -1,0 +1,3542 @@
+[
+ {
+  "id": "huang2024aesexpert",
+  "type": "paper-conference",
+  "title": "AesExpert: Towards multi-modality foundation model for image aesthetics perception",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-0908-2180",
+    "authenticated-orcid": false,
+    "given": "Yipo",
+    "family": "Huang",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "School of Artificial Intelligence, Xidian University &amp; Nanyang Technological University, Xi'an, Shaanxi, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0009-0004-8468-1970",
+    "authenticated-orcid": false,
+    "given": "Xiangfei",
+    "family": "Sheng",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Artificial Intelligence, Xidian University, Xi'an, Shaanxi, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0009-0008-3398-1286",
+    "authenticated-orcid": false,
+    "given": "Zhichao",
+    "family": "Yang",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Artificial Intelligence, Xidian University, Xi'an, Shaanxi, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5929-2026",
+    "authenticated-orcid": false,
+    "given": "Quan",
+    "family": "Yuan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Artificial Intelligence, Xidian University, Xi'an, Shaanxi, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0009-0006-8004-387X",
+    "authenticated-orcid": false,
+    "given": "Zhichao",
+    "family": "Duan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Artificial Intelligence, Xidian University, Xi'an, Shaanxi, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-0509-3782",
+    "authenticated-orcid": false,
+    "given": "Pengfei",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Artificial Intelligence, Xidian University, Xi'an, Shaanxi, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9069-8796",
+    "authenticated-orcid": false,
+    "given": "Leida",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Artificial Intelligence, Xidian University, Xi'an, Shaanxi, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9866-1947",
+    "authenticated-orcid": false,
+    "given": "Weisi",
+    "family": "Lin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "College of Computing and Data Science, Nanyang Technological University, Singapore, Singapore"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-2179-3292",
+    "authenticated-orcid": false,
+    "given": "Guangming",
+    "family": "Shi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Artificial Intelligence, Xidian University, Xi'an, Shaanxi, China"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "Proceedings of the 32nd ACM International Conference on Multimedia",
+  "page": "5911-5920",
+  "publisher": "ACM",
+  "DOI": "10.1145/3664647.3680649"
+ },
+ {
+  "id": "jiang2025textual",
+  "type": "paper-conference",
+  "title": "Textual aesthetics in large language models",
+  "author": [
+   {
+    "given": "Lingjie",
+    "family": "Jiang",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shaohan",
+    "family": "Huang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xun",
+    "family": "Wu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Furu",
+    "family": "Wei",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "page": "13801-13829",
+  "publisher": "Association for Computational Linguistics",
+  "DOI": "10.18653/v1/2025.emnlp-main.696"
+ },
+ {
+  "id": "arielli2018taste",
+  "type": "article-journal",
+  "title": "Taste and the algorithm",
+  "author": [
+   {
+    "family": "Arielli",
+    "given": "Emanuele"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "Studi di Estetica",
+  "issue": "3",
+  "page": "77–97",
+  "publisher": "Mimesis Edizioni",
+  "publisher-place": "IT",
+  "DOI": "10.7413/18258646062",
+  "volume": "12"
+ },
+ {
+  "id": "nieborg2018platformization",
+  "type": "article-journal",
+  "title": "The platformization of cultural production: Theorizing the contingent cultural commodity",
+  "author": [
+   {
+    "given": "David B",
+    "family": "Nieborg",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Toronto, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas",
+    "family": "Poell",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Amsterdam, The Netherlands"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "New Media & Society",
+  "volume": "20",
+  "issue": "11",
+  "page": "4275-4292",
+  "publisher": "SAGE Publications",
+  "DOI": "10.1177/1461444818769694"
+ },
+ {
+  "id": "cross2026algorithmic",
+  "type": "article-journal",
+  "title": "Algorithmic recommendation and aesthetic flourishing",
+  "author": [
+   {
+    "given": "Anthony",
+    "family": "Cross",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Philosophy, Texas State University , San Marcos, TX 78666,",
+      "place": [
+       "United States"
+      ]
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "The Journal of Aesthetics and Art Criticism",
+  "volume": "84",
+  "issue": "2",
+  "page": "234-246",
+  "publisher": "Oxford University Press (OUP)",
+  "DOI": "10.1093/jaac/kpag012"
+ },
+ {
+  "id": "pajkovic2022algorithms",
+  "type": "article-journal",
+  "title": "Algorithms and taste-making: Exposing the Netflix recommender system’s operational logics",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-1053-866X",
+    "authenticated-orcid": false,
+    "given": "Niko",
+    "family": "Pajkovic",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Ryerson University, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "Convergence: The International Journal of Research into New Media Technologies",
+  "volume": "28",
+  "issue": "1",
+  "page": "214-235",
+  "publisher": "SAGE Publications",
+  "DOI": "10.1177/13548565211014464"
+ },
+ {
+  "id": "phillips2018face",
+  "type": "article-journal",
+  "title": "Face recognition accuracy of forensic examiners, superrecognizers, and face recognition algorithms",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-6284-5197",
+    "authenticated-orcid": false,
+    "given": "P. Jonathon",
+    "family": "Phillips",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Information Access Division, National Institute of Standards and Technology, Gaithersburg, MD 20899;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Amy N.",
+    "family": "Yates",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Information Access Division, National Institute of Standards and Technology, Gaithersburg, MD 20899;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ying",
+    "family": "Hu",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Behavioral and Brain Sciences, The University of Texas at Dallas, Richardson, TX 75080;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Carina A.",
+    "family": "Hahn",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Behavioral and Brain Sciences, The University of Texas at Dallas, Richardson, TX 75080;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Eilidh",
+    "family": "Noyes",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Behavioral and Brain Sciences, The University of Texas at Dallas, Richardson, TX 75080;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Kelsey",
+    "family": "Jackson",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Behavioral and Brain Sciences, The University of Texas at Dallas, Richardson, TX 75080;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jacqueline G.",
+    "family": "Cavazos",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Behavioral and Brain Sciences, The University of Texas at Dallas, Richardson, TX 75080;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Géraldine",
+    "family": "Jeckeln",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Behavioral and Brain Sciences, The University of Texas at Dallas, Richardson, TX 75080;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Rajeev",
+    "family": "Ranjan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical and Computer Engineering, University of Maryland Institute for Advanced Computer Studies, University of Maryland, College Park, MD 20854;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Swami",
+    "family": "Sankaranarayanan",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical and Computer Engineering, University of Maryland Institute for Advanced Computer Studies, University of Maryland, College Park, MD 20854;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jun-Cheng",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Maryland Institute for Advanced Computer Studies, University of Maryland, College Park, MD 20854;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Carlos D.",
+    "family": "Castillo",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Maryland Institute for Advanced Computer Studies, University of Maryland, College Park, MD 20854;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Rama",
+    "family": "Chellappa",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Electrical and Computer Engineering, University of Maryland Institute for Advanced Computer Studies, University of Maryland, College Park, MD 20854;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "David",
+    "family": "White",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Psychology, The University of New South Wales, Sydney, NSW 2052, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alice J.",
+    "family": "O’Toole",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Behavioral and Brain Sciences, The University of Texas at Dallas, Richardson, TX 75080;"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "Proceedings of the National Academy of Sciences",
+  "volume": "115",
+  "issue": "24",
+  "page": "6171-6176",
+  "publisher": "National Academy of Sciences",
+  "DOI": "10.1073/pnas.1721355115"
+ },
+ {
+  "id": "branson2014bird",
+  "type": "article",
+  "title": "Bird species categorization using pose normalized deep convolutional nets",
+  "author": [
+   {
+    "family": "Branson",
+    "given": "Steve"
+   },
+   {
+    "family": "Van Horn",
+    "given": "Grant"
+   },
+   {
+    "family": "Belongie",
+    "given": "Serge"
+   },
+   {
+    "family": "Perona",
+    "given": "Pietro"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.1406.2952"
+ },
+ {
+  "id": "he2015delving",
+  "type": "paper-conference",
+  "title": "Delving deep into rectifiers: Surpassing human-level performance on ImageNet classification",
+  "author": [
+   {
+    "given": "Kaiming",
+    "family": "He",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiangyu",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shaoqing",
+    "family": "Ren",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jian",
+    "family": "Sun",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "2015 IEEE International Conference on Computer Vision (ICCV)",
+  "page": "1026-1034",
+  "publisher": "IEEE",
+  "DOI": "10.1109/iccv.2015.123"
+ },
+ {
+  "id": "karayev2014recognizing",
+  "type": "paper-conference",
+  "title": "Recognizing image style",
+  "author": [
+   {
+    "given": "Sergey",
+    "family": "Karayev",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aaron",
+    "family": "Hertzmann",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Matthew",
+    "family": "Trentacoste",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Helen",
+    "family": "Han",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Holger",
+    "family": "Winnemoeller",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Aseem",
+    "family": "Agarwala",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Trevor",
+    "family": "Darrell",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "Proceedings of the British Machine Vision Conference 2014",
+  "page": "122.1-122.11",
+  "publisher": "British Machine Vision Association",
+  "DOI": "10.5244/c.28.122"
+ },
+ {
+  "id": "ziaee2025fine",
+  "type": "paper-conference",
+  "title": "A fine-grained artist identification method for authentication and attribution of drawings using hatching lines",
+  "author": [
+   {
+    "given": "Shahrzad",
+    "family": "Ziaee",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Rutgers University,Art &#x0026; AI Lab,Dept. of Computer Science"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ahmed",
+    "family": "Elgammal",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "College of Charleston,Dept. of Art &#x0026; Architectural History"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Marian",
+    "family": "Mazzone",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Rutgers University,Art &#x0026; AI Lab,Dept. of Computer Science"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+  "page": "2153-2164",
+  "publisher": "IEEE",
+  "DOI": "10.1109/cvprw67362.2025.00203"
+ },
+ {
+  "id": "conde2022clipart",
+  "type": "article-journal",
+  "title": "CLIP-Art: Contrastive pre-training for fine-grained art classification",
+  "author": [
+   {
+    "family": "Conde",
+    "given": "Marcos V."
+   },
+   {
+    "family": "Turgutlu",
+    "given": "Kerem"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "arXiv",
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2204.14244"
+ },
+ {
+  "id": "gatys2016image",
+  "type": "paper-conference",
+  "title": "Image style transfer using convolutional neural networks",
+  "author": [
+   {
+    "given": "Leon A.",
+    "family": "Gatys",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alexander S.",
+    "family": "Ecker",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Matthias",
+    "family": "Bethge",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "container-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+  "page": "2414-2423",
+  "publisher": "IEEE",
+  "DOI": "10.1109/cvpr.2016.265"
+ },
+ {
+  "id": "zhang2022inversion",
+  "type": "article",
+  "title": "Inversion-based style transfer with diffusion models",
+  "author": [
+   {
+    "family": "Zhang",
+    "given": "Yuxin"
+   },
+   {
+    "family": "Huang",
+    "given": "Nisha"
+   },
+   {
+    "family": "Tang",
+    "given": "Fan"
+   },
+   {
+    "family": "Huang",
+    "given": "Haibin"
+   },
+   {
+    "family": "Ma",
+    "given": "Chongyang"
+   },
+   {
+    "family": "Dong",
+    "given": "Weiming"
+   },
+   {
+    "family": "Xu",
+    "given": "Changsheng"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2211.13203"
+ },
+ {
+  "id": "baker2018deep",
+  "type": "article-journal",
+  "title": "Deep convolutional networks do not classify based on global object shape",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-0673-2486",
+    "authenticated-orcid": true,
+    "given": "Nicholas",
+    "family": "Baker",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hongjing",
+    "family": "Lu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9594-2660",
+    "authenticated-orcid": true,
+    "given": "Gennady",
+    "family": "Erlikhman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Philip J.",
+    "family": "Kellman",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "editor": [
+   {
+    "given": "Wolfgang",
+    "family": "Einhäuser",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "editor"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "PLOS Computational Biology",
+  "volume": "14",
+  "issue": "12",
+  "page": "e1006613",
+  "publisher": "Public Library of Science (PLoS)",
+  "DOI": "10.1371/journal.pcbi.1006613"
+ },
+ {
+  "id": "geirhos2018imagenet",
+  "type": "article",
+  "title": "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness",
+  "author": [
+   {
+    "family": "Geirhos",
+    "given": "Robert"
+   },
+   {
+    "family": "Rubisch",
+    "given": "Patricia"
+   },
+   {
+    "family": "Michaelis",
+    "given": "Claudio"
+   },
+   {
+    "family": "Bethge",
+    "given": "Matthias"
+   },
+   {
+    "family": "Wichmann",
+    "given": "Felix A."
+   },
+   {
+    "family": "Brendel",
+    "given": "Wieland"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.1811.12231"
+ },
+ {
+  "id": "ilyas2019adversarial",
+  "type": "article",
+  "title": "Adversarial examples are not bugs, they are features",
+  "author": [
+   {
+    "family": "Ilyas",
+    "given": "Andrew"
+   },
+   {
+    "family": "Santurkar",
+    "given": "Shibani"
+   },
+   {
+    "family": "Tsipras",
+    "given": "Dimitris"
+   },
+   {
+    "family": "Engstrom",
+    "given": "Logan"
+   },
+   {
+    "family": "Tran",
+    "given": "Brandon"
+   },
+   {
+    "family": "Madry",
+    "given": "Aleksander"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.1905.02175"
+ },
+ {
+  "id": "nguyen2014deep",
+  "type": "article",
+  "title": "Deep neural networks are easily fooled: High confidence predictions for unrecognizable images",
+  "author": [
+   {
+    "family": "Nguyen",
+    "given": "Anh"
+   },
+   {
+    "family": "Yosinski",
+    "given": "Jason"
+   },
+   {
+    "family": "Clune",
+    "given": "Jeff"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.1412.1897"
+ },
+ {
+  "id": "martinezmarin2022aesthetic",
+  "type": "chapter",
+  "title": "Aesthetic taste: Perceptual discernment or emotional sensibility?",
+  "author": [
+   {
+    "family": "Martínez Marín",
+    "given": "Iris"
+   },
+   {
+    "family": "Schellekens",
+    "given": "Elisabeth"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "Perspectives on taste: Aesthetics, language, metaphysics, and experimental philosophy",
+  "page": "58-74",
+  "publisher": "Routledge",
+  "DOI": "10.4324/9781003184225-5",
+  "editor": [
+   {
+    "family": "Wyatt",
+    "given": "Jeremy"
+   },
+   {
+    "family": "Zakkou",
+    "given": "Julia"
+   },
+   {
+    "family": "Zeman",
+    "given": "Dan"
+   }
+  ],
+  "publisher-place": "New York"
+ },
+ {
+  "id": "ramstead2020tale",
+  "type": "article-journal",
+  "title": "A tale of two densities: Active inference is enactive inference",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-1477-8177",
+    "authenticated-orcid": false,
+    "given": "Maxwell JD",
+    "family": "Ramstead",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Division of Social and Transcultural Psychiatry, Department of Psychiatry, McGill University, Montreal, QC, Canada"
+     },
+     {
+      "name": "Culture, Mind, and Brain Program, McGill University, Montreal, QC, Canada"
+     },
+     {
+      "name": "Department of Philosophy, McGill University, Montreal, QC, Canada"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael D",
+    "family": "Kirchhoff",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Philosophy, Faculty of Law, Humanities and the Arts, University of Wollongong, Wollongong, Australia"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Karl J",
+    "family": "Friston",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Wellcome Centre for Human Neuroimaging, University College London, London, UK"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "Adaptive Behavior",
+  "volume": "28",
+  "issue": "4",
+  "page": "225-239",
+  "publisher": "SAGE Publications",
+  "DOI": "10.1177/1059712319862774"
+ },
+ {
+  "id": "hohwy2016self",
+  "type": "article-journal",
+  "title": "The self-evidencing brain",
+  "author": [
+   {
+    "given": "Jakob",
+    "family": "Hohwy",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Monash University"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "container-title": "Noûs",
+  "volume": "50",
+  "issue": "2",
+  "page": "259-285",
+  "publisher": "Wiley",
+  "DOI": "10.1111/nous.12062"
+ },
+ {
+  "id": "kiverstein2019feeling",
+  "type": "article-journal",
+  "title": "The feeling of grip: Novelty, error dynamics, and the predictive brain",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-3428-8367",
+    "authenticated-orcid": false,
+    "given": "Julian",
+    "family": "Kiverstein",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mark",
+    "family": "Miller",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-5197-142X",
+    "authenticated-orcid": false,
+    "given": "Erik",
+    "family": "Rietveld",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "Synthese",
+  "volume": "196",
+  "issue": "7",
+  "page": "2847-2869",
+  "publisher": "Springer Science and Business Media LLC",
+  "DOI": "10.1007/s11229-017-1583-9"
+ },
+ {
+  "id": "joffily2013emotional",
+  "type": "article-journal",
+  "title": "Emotional valence and the free-energy principle",
+  "author": [
+   {
+    "given": "Mateus",
+    "family": "Joffily",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Giorgio",
+    "family": "Coricelli",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "editor": [
+   {
+    "given": "Tim",
+    "family": "Behrens",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "editor"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2013
+    ]
+   ]
+  },
+  "container-title": "PLoS Computational Biology",
+  "volume": "9",
+  "issue": "6",
+  "page": "e1003094",
+  "publisher": "Public Library of Science (PLoS)",
+  "DOI": "10.1371/journal.pcbi.1003094"
+ },
+ {
+  "id": "vandecruys2017affective",
+  "type": "chapter",
+  "title": "Affective value in the predictive mind",
+  "author": [
+   {
+    "family": "Van de Cruys",
+    "given": "Sander"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Metzinger",
+    "given": "Thomas K."
+   },
+   {
+    "family": "Wiese",
+    "given": "Wanja"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "Philosophy and Predictive Processing",
+  "publisher": "MIND Group",
+  "DOI": "10.15502/9783958573253",
+  "page": "1–21",
+  "publisher-place": "Frankfurt am Main"
+ },
+ {
+  "id": "hesp2021deeply",
+  "type": "article-journal",
+  "title": "Deeply felt affect: The emergence of valence in deep active inference",
+  "author": [
+   {
+    "given": "Casper",
+    "family": "Hesp",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Psychology and Amsterdam Brain and Cognition Centre, University of Amsterdam, 1098 XH Amsterdam, Netherlands; Institute for Advanced Study, University of Amsterdam, 1012 GC Amsterdam, Netherlands; and Wellcome Centre for Human Neuroimaging, University College London, London WC1N 3BG, U.K. c.hesp@uva.nl"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ryan",
+    "family": "Smith",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Laureate Institute for Brain Research, Tulsa, OK 74136, U.S.A. RSmith@laureateinstitute.org"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas",
+    "family": "Parr",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Wellcome Centre for Human Neuroimaging, University College London, London WC1N 3BG, U.K. thomas.parr.12@ucl.ac.uk"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Micah",
+    "family": "Allen",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Aarhus Institute of Advanced Studies, Aarhus University, Aarhus 8000, Denmark; Centre of Functionally Integrative Neuroscience, Aarhus University Hospital, Aarhus 8200, Denmark; and Cambridge Psychiatry, Cambridge University, Cambridge CB2 8AH. U.K. micah.allen@medschl.cam.ac.uk"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Karl J.",
+    "family": "Friston",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Wellcome Centre for Human Neuroimaging, University College London, London WC1N 3BG, U.K. k.friston@ucl.ac.uk"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maxwell J. D.",
+    "family": "Ramstead",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Wellcome Centre for Human Neuroimaging, University College London, London WC1N 3BG, U.K.; Division of Social and Transcultural Psychiatry, Department of Psychiatry and Culture, Mind, and Brain Program, McGill University, Montreal H3A 0G4, QC, Canada maxwell.d.ramstead@gmail.com"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "container-title": "Neural Computation",
+  "volume": "33",
+  "issue": "2",
+  "page": "398-446",
+  "publisher": "MIT Press",
+  "DOI": "10.1162/neco_a_01341"
+ },
+ {
+  "id": "vandecruys2024order",
+  "type": "article-journal",
+  "title": "Order and change in art: Towards an active inference account of aesthetic experience",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0003-4831-7800",
+    "authenticated-orcid": true,
+    "given": "Sander",
+    "family": "Van de Cruys",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Antwerp Social Laboratory, University of Antwerp, 2000 Antwerp, Belgium"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-2517-7158",
+    "authenticated-orcid": true,
+    "given": "Jacopo",
+    "family": "Frascaroli",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Psychology, University of Turin, 10124 Torino, Italy"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7984-8909",
+    "authenticated-orcid": true,
+    "given": "Karl",
+    "family": "Friston",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "The Wellcome Centre for Human Neuroimaging, University College London, London WC1N 3BG, UK"
+     },
+     {
+      "name": "VERSES AI Research Lab, Los Angeles, 900016, CA, USA"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+  "volume": "379",
+  "issue": "1895",
+  "publisher": "The Royal Society",
+  "DOI": "10.1098/rstb.2022.0411",
+  "number": "20220411"
+ },
+ {
+  "id": "kirstain2023pickapic",
+  "type": "paper-conference",
+  "title": "Pick-a-Pic: An open dataset of user preferences for text-to-image generation",
+  "author": [
+   {
+    "given": "Yuval",
+    "family": "Kirstain",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Adam",
+    "family": "Polyak",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Uriel",
+    "family": "Singer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shahbuland",
+    "family": "Matiana",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Joe",
+    "family": "Penna",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Omer",
+    "family": "Levy",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "Advances in Neural Information Processing Systems 36",
+  "page": "36652-36663",
+  "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+  "DOI": "10.52202/075280-1594"
+ },
+ {
+  "id": "wu2023human",
+  "type": "article",
+  "title": "Human preference score: Better aligning text-to-image models with human preference",
+  "author": [
+   {
+    "family": "Wu",
+    "given": "Xiaoshi"
+   },
+   {
+    "family": "Sun",
+    "given": "Keqiang"
+   },
+   {
+    "family": "Zhu",
+    "given": "Feng"
+   },
+   {
+    "family": "Zhao",
+    "given": "Rui"
+   },
+   {
+    "family": "Li",
+    "given": "Hongsheng"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2303.14420"
+ },
+ {
+  "id": "zhang2024learning",
+  "type": "article",
+  "title": "Learning multi-dimensional human preference for text-to-image generation",
+  "author": [
+   {
+    "family": "Zhang",
+    "given": "Sixian"
+   },
+   {
+    "family": "Wang",
+    "given": "Bohan"
+   },
+   {
+    "family": "Wu",
+    "given": "Junqiang"
+   },
+   {
+    "family": "Li",
+    "given": "Yan"
+   },
+   {
+    "family": "Gao",
+    "given": "Tingting"
+   },
+   {
+    "family": "Zhang",
+    "given": "Di"
+   },
+   {
+    "family": "Wang",
+    "given": "Zhongyuan"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2405.14705"
+ },
+ {
+  "id": "schreurs2024predicting",
+  "type": "article-journal",
+  "title": "Predicting and improving complex beer flavor through machine learning",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-9449-5619",
+    "authenticated-orcid": false,
+    "given": "Michiel",
+    "family": "Schreurs",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Supinya",
+    "family": "Piampongsant",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7461-1427",
+    "authenticated-orcid": false,
+    "given": "Miguel",
+    "family": "Roncoroni",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9936-3124",
+    "authenticated-orcid": false,
+    "given": "Lloyd",
+    "family": "Cool",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-5096-9974",
+    "authenticated-orcid": false,
+    "given": "Beatriz",
+    "family": "Herrera-Malaver",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7443-5427",
+    "authenticated-orcid": false,
+    "given": "Christophe",
+    "family": "Vanderaa",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Florian A.",
+    "family": "Theßeling",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-7620-4657",
+    "authenticated-orcid": false,
+    "given": "Łukasz",
+    "family": "Kreft",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-6691-4233",
+    "authenticated-orcid": false,
+    "given": "Alexander",
+    "family": "Botzki",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Philippe",
+    "family": "Malcorps",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Luk",
+    "family": "Daenen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1434-861X",
+    "authenticated-orcid": false,
+    "given": "Tom",
+    "family": "Wenseleers",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-3077-6219",
+    "authenticated-orcid": false,
+    "given": "Kevin J.",
+    "family": "Verstrepen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "Nature Communications",
+  "volume": "15",
+  "issue": "1",
+  "publisher": "Springer Science and Business Media LLC",
+  "DOI": "10.1038/s41467-024-46346-0",
+  "number": "2368"
+ },
+ {
+  "id": "xu2023imagereward",
+  "type": "paper-conference",
+  "title": "ImageReward: Learning and evaluating human preferences for text-to-image generation",
+  "author": [
+   {
+    "given": "Jiazheng",
+    "family": "Xu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Xiao",
+    "family": "Liu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yuchen",
+    "family": "Wu",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yuxuan",
+    "family": "Tong",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Qinkai",
+    "family": "Li",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ming",
+    "family": "Ding",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Jie",
+    "family": "Tang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yuxiao",
+    "family": "Dong",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "Advances in Neural Information Processing Systems 36",
+  "page": "15903-15935",
+  "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+  "DOI": "10.52202/075280-0700"
+ },
+ {
+  "id": "friston2015active",
+  "type": "article-journal",
+  "title": "Active inference and epistemic value",
+  "author": [
+   {
+    "given": "Karl",
+    "family": "Friston",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Francesco",
+    "family": "Rigoli",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dimitri",
+    "family": "Ognibene",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Christoph",
+    "family": "Mathys",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas",
+    "family": "Fitzgerald",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Giovanni",
+    "family": "Pezzulo",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "Cognitive Neuroscience",
+  "volume": "6",
+  "issue": "4",
+  "page": "187-214",
+  "publisher": "Informa UK Limited",
+  "DOI": "10.1080/17588928.2015.1020053"
+ },
+ {
+  "id": "oudeyer2007intrinsic",
+  "type": "article-journal",
+  "title": "Intrinsic motivation systems for autonomous mental development",
+  "author": [
+   {
+    "given": "Pierre-Yves",
+    "family": "Oudeyer",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Frdric",
+    "family": "Kaplan",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Verena V.",
+    "family": "Hafner",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2007
+    ]
+   ]
+  },
+  "container-title": "IEEE Transactions on Evolutionary Computation",
+  "volume": "11",
+  "issue": "2",
+  "page": "265-286",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "DOI": "10.1109/tevc.2006.890271"
+ },
+ {
+  "id": "kidd2014goldilocks",
+  "type": "article-journal",
+  "title": "The Goldilocks effect in infant auditory attention",
+  "author": [
+   {
+    "given": "Celeste",
+    "family": "Kidd",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "University of Rochester"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Steven T",
+    "family": "Piantadosi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Rochester"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Richard N",
+    "family": "Aslin",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "University of Rochester"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "Child Development",
+  "volume": "85",
+  "issue": "5",
+  "page": "1795-1804",
+  "publisher": "Oxford University Press (OUP)",
+  "DOI": "10.1111/cdev.12263"
+ },
+ {
+  "id": "kidd2015psychology",
+  "type": "article-journal",
+  "title": "The psychology and neuroscience of curiosity",
+  "author": [
+   {
+    "given": "Celeste",
+    "family": "Kidd",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Benjamin Y.",
+    "family": "Hayden",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "Neuron",
+  "volume": "88",
+  "issue": "3",
+  "page": "449-460",
+  "publisher": "Elsevier BV",
+  "DOI": "10.1016/j.neuron.2015.09.010"
+ },
+ {
+  "id": "liu2021understanding",
+  "type": "article-journal",
+  "title": "Understanding the onset of hot streaks across artistic, cultural, and scientific careers",
+  "author": [
+   {
+    "given": "Lu",
+    "family": "Liu",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1617-5502",
+    "authenticated-orcid": false,
+    "given": "Nima",
+    "family": "Dehmamy",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0001-9965-4749",
+    "authenticated-orcid": false,
+    "given": "Jillian",
+    "family": "Chown",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "C. Lee",
+    "family": "Giles",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-7054-2206",
+    "authenticated-orcid": false,
+    "given": "Dashun",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "container-title": "Nature Communications",
+  "volume": "12",
+  "issue": "1",
+  "publisher": "Springer Science and Business Media LLC",
+  "DOI": "10.1038/s41467-021-25477-8",
+  "number": "5392"
+ },
+ {
+  "id": "karjus2023compression",
+  "type": "article-journal",
+  "title": "Compression ensembles quantify aesthetic complexity and the evolution of visual art",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-2445-5072",
+    "authenticated-orcid": false,
+    "given": "Andres",
+    "family": "Karjus",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mar",
+    "family": "Canet Solà",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Tillmann",
+    "family": "Ohm",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sebastian E.",
+    "family": "Ahnert",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maximilian",
+    "family": "Schich",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "EPJ Data Science",
+  "volume": "12",
+  "issue": "1",
+  "publisher": "Springer Science and Business Media LLC",
+  "DOI": "10.1140/epjds/s13688-023-00397-3",
+  "number": "21"
+ },
+ {
+  "id": "pezzulo2024generating",
+  "type": "article-journal",
+  "title": "Generating meaning: Active inference and the scope and limits of passive AI",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-6813-8282",
+    "authenticated-orcid": false,
+    "given": "Giovanni",
+    "family": "Pezzulo",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Thomas",
+    "family": "Parr",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Paul",
+    "family": "Cisek",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Andy",
+    "family": "Clark",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Karl",
+    "family": "Friston",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "Trends in Cognitive Sciences",
+  "volume": "28",
+  "issue": "2",
+  "page": "97-112",
+  "publisher": "Elsevier BV",
+  "DOI": "10.1016/j.tics.2023.10.002"
+ },
+ {
+  "id": "kulveit2023predictive",
+  "type": "article",
+  "title": "Predictive minds: LLMs as atypical active inference agents",
+  "author": [
+   {
+    "family": "Kulveit",
+    "given": "Jan"
+   },
+   {
+    "family": "von Stengel",
+    "given": "Clem"
+   },
+   {
+    "family": "Leventov",
+    "given": "Roman"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2311.10215"
+ },
+ {
+  "id": "schmidhuber2010formal",
+  "type": "article-journal",
+  "title": "Formal theory of creativity, fun, and intrinsic motivation (1990–2010)",
+  "author": [
+   {
+    "given": "Jürgen",
+    "family": "Schmidhuber",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "container-title": "IEEE Transactions on Autonomous Mental Development",
+  "volume": "2",
+  "issue": "3",
+  "page": "230-247",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "DOI": "10.1109/tamd.2010.2056368"
+ },
+ {
+  "id": "herrmann2026interestingness",
+  "type": "article",
+  "title": "Interestingness as an inductive heuristic for future compression progress",
+  "author": [
+   {
+    "family": "Herrmann",
+    "given": "Vincent"
+   },
+   {
+    "family": "Schmidhuber",
+    "given": "Jürgen"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2605.14831"
+ },
+ {
+  "id": "batista2026rational",
+  "type": "article",
+  "title": "A rational analysis of the effects of sycophantic AI",
+  "author": [
+   {
+    "family": "Batista",
+    "given": "Rafael M."
+   },
+   {
+    "family": "Griffiths",
+    "given": "Thomas L."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2602.14270"
+ },
+ {
+  "id": "sharma2023towards",
+  "type": "article",
+  "title": "Towards understanding sycophancy in language models",
+  "author": [
+   {
+    "family": "Sharma",
+    "given": "Mrinank"
+   },
+   {
+    "family": "Tong",
+    "given": "Meg"
+   },
+   {
+    "family": "Korbak",
+    "given": "Tomasz"
+   },
+   {
+    "family": "Duvenaud",
+    "given": "David"
+   },
+   {
+    "family": "Askell",
+    "given": "Amanda"
+   },
+   {
+    "family": "Bowman",
+    "given": "Samuel R."
+   },
+   {
+    "family": "Cheng",
+    "given": "Newton"
+   },
+   {
+    "family": "Durmus",
+    "given": "Esin"
+   },
+   {
+    "family": "Hatfield-Dodds",
+    "given": "Zac"
+   },
+   {
+    "family": "Johnston",
+    "given": "Scott R."
+   },
+   {
+    "family": "Kravec",
+    "given": "Shauna"
+   },
+   {
+    "family": "Maxwell",
+    "given": "Timothy"
+   },
+   {
+    "family": "McCandlish",
+    "given": "Sam"
+   },
+   {
+    "family": "Ndousse",
+    "given": "Kamal"
+   },
+   {
+    "family": "Rausch",
+    "given": "Oliver"
+   },
+   {
+    "family": "Schiefer",
+    "given": "Nicholas"
+   },
+   {
+    "family": "Yan",
+    "given": "Da"
+   },
+   {
+    "family": "Zhang",
+    "given": "Miranda"
+   },
+   {
+    "family": "Perez",
+    "given": "Ethan"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2310.13548"
+ },
+ {
+  "id": "goldenberg2026large",
+  "type": "article-journal",
+  "title": "Large language models do not have emotions",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0002-9417-5682",
+    "authenticated-orcid": false,
+    "given": "Amit",
+    "family": "Goldenberg",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-3624-3090",
+    "authenticated-orcid": false,
+    "given": "James J.",
+    "family": "Gross",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "Nature Human Behaviour",
+  "volume": "10",
+  "issue": "10",
+  "page": "1855-1856",
+  "publisher": "Springer Science and Business Media LLC",
+  "DOI": "10.1038/s41562-026-02558-6"
+ },
+ {
+  "id": "berglund2023taken",
+  "type": "article",
+  "title": "Taken out of context: On measuring situational awareness in LLMs",
+  "author": [
+   {
+    "family": "Berglund",
+    "given": "Lukas"
+   },
+   {
+    "family": "Stickland",
+    "given": "Asa Cooper"
+   },
+   {
+    "family": "Balesni",
+    "given": "Mikita"
+   },
+   {
+    "family": "Kaufmann",
+    "given": "Max"
+   },
+   {
+    "family": "Tong",
+    "given": "Meg"
+   },
+   {
+    "family": "Korbak",
+    "given": "Tomasz"
+   },
+   {
+    "family": "Kokotajlo",
+    "given": "Daniel"
+   },
+   {
+    "family": "Evans",
+    "given": "Owain"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2309.00667"
+ },
+ {
+  "id": "xie2021explanation",
+  "type": "article",
+  "title": "An explanation of in-context learning as implicit Bayesian inference",
+  "author": [
+   {
+    "family": "Xie",
+    "given": "Sang Michael"
+   },
+   {
+    "family": "Raghunathan",
+    "given": "Aditi"
+   },
+   {
+    "family": "Liang",
+    "given": "Percy"
+   },
+   {
+    "family": "Ma",
+    "given": "Tengyu"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/ARXIV.2111.02080"
+ },
+ {
+  "id": "dickie1996century",
+  "type": "book",
+  "author": [
+   {
+    "family": "Dickie",
+    "given": "George"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "title": "The century of taste: The philosophical odyssey of taste in the eighteenth century",
+  "publisher": "Oxford University Press",
+  "publisher-place": "New York"
+ },
+ {
+  "id": "yao2025multimodal",
+  "type": "paper-conference",
+  "author": [
+   {
+    "family": "Yao",
+    "given": "Y."
+   },
+   {
+    "family": "Zhuang",
+    "given": "Q."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "title": "Do multimodal large language models have “good taste”? An evaluation of MLLMs via the Visual Aesthetic Sensitivity Test",
+  "container-title": "Proceedings of the 39th Pacific Asia Conference on Language, Information and Computation",
+  "page": "413–418",
+  "publisher": "Association for Computational Linguistics",
+  "publisher-place": "Hanoi, Vietnam",
+  "URL": "https://aclanthology.org/2025.paclic-1.37/"
+ },
+ {
+  "id": "seaver2022computing",
+  "type": "book",
+  "author": [
+   {
+    "family": "Seaver",
+    "given": "Nick"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "title": "Computing taste: Algorithms and the makers of music recommendation",
+  "publisher": "University of Chicago Press",
+  "publisher-place": "Chicago"
+ },
+ {
+  "id": "manovich2024artificial",
+  "type": "book",
+  "author": [
+   {
+    "family": "Manovich",
+    "given": "Lev"
+   },
+   {
+    "family": "Arielli",
+    "given": "Emanuele"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "title": "Artificial aesthetics: Generative AI, art and visual media",
+  "URL": "https://manovich.net/index.php/projects/artificial-aesthetics"
+ },
+ {
+  "id": "hume1987standard",
+  "type": "chapter",
+  "author": [
+   {
+    "family": "Hume",
+    "given": "David"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Miller",
+    "given": "Eugene F."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1987
+    ]
+   ]
+  },
+  "title": "Of the standard of taste",
+  "container-title": "Essays: Moral, political, and literary",
+  "edition": "2",
+  "page": "226–249",
+  "publisher": "Liberty Fund",
+  "publisher-place": "Indianapolis"
+ },
+ {
+  "id": "hume1987delicacy",
+  "type": "chapter",
+  "author": [
+   {
+    "family": "Hume",
+    "given": "David"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Miller",
+    "given": "Eugene F."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1987
+    ]
+   ]
+  },
+  "title": "Of the delicacy of taste and passion",
+  "container-title": "Essays: Moral, political, and literary",
+  "edition": "2",
+  "page": "3–8",
+  "publisher": "Liberty Fund",
+  "publisher-place": "Indianapolis"
+ },
+ {
+  "id": "lecoutre2017recognizing",
+  "type": "paper-conference",
+  "author": [
+   {
+    "family": "Lecoutre",
+    "given": "Adrian"
+   },
+   {
+    "family": "Negrevergne",
+    "given": "Benjamin"
+   },
+   {
+    "family": "Yger",
+    "given": "Florian"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Zhang",
+    "given": "Min-Ling"
+   },
+   {
+    "family": "Noh",
+    "given": "Yung-Kyun"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "title": "Recognizing art style automatically in painting with deep learning",
+  "container-title": "Proceedings of the Ninth Asian Conference on Machine Learning",
+  "collection-title": "Proceedings of Machine Learning Research",
+  "page": "327–342",
+  "publisher": "PMLR",
+  "URL": "https://proceedings.mlr.press/v77/lecoutre17a.html"
+ },
+ {
+  "id": "feather2019metamers",
+  "type": "paper-conference",
+  "author": [
+   {
+    "family": "Feather",
+    "given": "Jenelle"
+   },
+   {
+    "family": "Durango",
+    "given": "Alex"
+   },
+   {
+    "family": "Gonzalez",
+    "given": "Ray"
+   },
+   {
+    "family": "McDermott",
+    "given": "Josh H."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "title": "Metamers of neural networks reveal divergence from human perceptual systems",
+  "container-title": "Advances in Neural Information Processing Systems",
+  "URL": "https://api.semanticscholar.org/CorpusID:202769598"
+ },
+ {
+  "id": "friston2011embodied",
+  "type": "chapter",
+  "author": [
+   {
+    "family": "Friston",
+    "given": "Karl"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Tschacher",
+    "given": "Wolfgang"
+   },
+   {
+    "family": "Bergomi",
+    "given": "Claudia"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "title": "Embodied inference: Or “I think therefore I am, if I am what I think”",
+  "container-title": "The implications of embodiment: Cognition and communication",
+  "page": "89–125",
+  "publisher": "Imprint Academic",
+  "publisher-place": "Charlottesville, VA"
+ },
+ {
+  "id": "dipaolo2003organismically",
+  "type": "chapter",
+  "author": [
+   {
+    "family": "Di Paolo",
+    "given": "Ezequiel"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Murase",
+    "given": "K."
+   },
+   {
+    "family": "Asakura",
+    "given": "T."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2003
+    ]
+   ]
+  },
+  "title": "Organismically-inspired robotics: Homeostatic adaptation and natural teleology beyond the closed sensorimotor loop",
+  "container-title": "Dynamical systems approach to embodiment and sociality",
+  "page": "19–42",
+  "publisher": "Advanced Knowledge International",
+  "publisher-place": "Adelaide"
+ },
+ {
+  "id": "vandecruys2022preferences",
+  "type": "chapter",
+  "author": [
+   {
+    "family": "Van de Cruys",
+    "given": "Sander"
+   },
+   {
+    "family": "Bervoets",
+    "given": "Jo"
+   },
+   {
+    "family": "Moors",
+    "given": "Agnes"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Nadal",
+    "given": "Marcos"
+   },
+   {
+    "family": "Skov",
+    "given": "Martin"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "title": "Preferences need inferences: Learning, valuation, and curiosity in aesthetic experience",
+  "container-title": "The Routledge international handbook of neuroaesthetics",
+  "page": "475–506",
+  "publisher": "Routledge",
+  "publisher-place": "New York",
+  "DOI": "10.4324/9781003008675"
+ },
+ {
+  "id": "schuhmann2022laion",
+  "type": "post-weblog",
+  "author": [
+   {
+    "family": "Schuhmann",
+    "given": "Christoph"
+   },
+   {
+    "family": "Beaumont",
+    "given": "Romain"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     8,
+     16
+    ]
+   ]
+  },
+  "title": "LAION-Aesthetics",
+  "container-title": "LAION",
+  "URL": "https://laion.ai/blog/laion-aesthetics/"
+ },
+ {
+  "id": "bateson1979mind",
+  "type": "book",
+  "author": [
+   {
+    "family": "Bateson",
+    "given": "Gregory"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1979
+    ]
+   ]
+  },
+  "title": "Mind and nature: A necessary unity",
+  "publisher": "Dutton",
+  "publisher-place": "New York"
+ },
+ {
+  "id": "vandecruys_being",
+  "type": "chapter",
+  "author": [
+   {
+    "family": "Van de Cruys",
+    "given": "Sander"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Contesi",
+    "given": "Filippo"
+   },
+   {
+    "family": "Frascaroli",
+    "given": "Jacopo"
+   },
+   {
+    "family": "Omigie",
+    "given": "Diana"
+   }
+  ],
+  "status": "forthcoming",
+  "title": "Being, knowing, and beauty (How to set yourself up for failure)",
+  "container-title": "The arts and the drive for knowledge",
+  "publisher": "Cambridge University Press",
+  "publisher-place": "Cambridge, UK"
+ },
+ {
+  "id": "vandecruys_sassenberg_click",
+  "type": "manuscript",
+  "author": [
+   {
+    "family": "Van de Cruys",
+    "given": "Sander"
+   },
+   {
+    "family": "Sassenberg",
+    "given": "Kai"
+   }
+  ],
+  "genre": "Manuscript under review",
+  "title": "When machines know what will click"
+ },
+ {
+  "id": "rao2026taste",
+  "type": "post-weblog",
+  "author": [
+   {
+    "family": "Rao",
+    "given": "Venkatesh"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     12
+    ]
+   ]
+  },
+  "title": "The taste essay",
+  "container-title": "Contraptions",
+  "URL": "https://contraptions.venkateshrao.com/p/the-taste-essay"
+ },
+ {
+  "id": "bourdieu2010distinction",
+  "type": "book",
+  "author": [
+   {
+    "family": "Bourdieu",
+    "given": "Pierre"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "title": "Distinction: A social critique of the judgement of taste",
+  "publisher": "Routledge",
+  "publisher-place": "London",
+  "collection-title": "Routledge classics"
+ },
+ {
+  "id": "cotra2022without",
+  "type": "post-weblog",
+  "author": [
+   {
+    "family": "Cotra",
+    "given": "Ajeya"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     7,
+     18
+    ]
+   ]
+  },
+  "title": "Without specific countermeasures, the easiest path to transformative AI likely leads to AI takeover",
+  "container-title": "LessWrong",
+  "URL": "https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to"
+ }
+]
