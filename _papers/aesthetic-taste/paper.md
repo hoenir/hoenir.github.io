@@ -89,10 +89,6 @@ Francesca Piovesan: Conceptualization, Investigation, Writing – original draft
 
 We used Claude (Anthropic) for literature search, conceptual discussions, and copy-editing for readability. All theoretical claims, syntheses, and final wordings are our own.
 
-## Declaration of competing interest {.unlisted}
-
-The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
-
 ## Acknowledgements {.unlisted}
 
 FP and JF acknowledge funding from ARTLANE – Art to Lower Anxiety in Elderly, under the PR Piemonte FESR 2021–2027 – Bando SWIch (Programma Regionale Piemonte, Fondo Europeo di Sviluppo Regionale 2021–2027), CUP D19J24000580006. SVdC is supported by an Alexander von Humboldt fellowship.
