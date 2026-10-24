@@ -3,18 +3,23 @@
    ========================================================================== */
 
 $paper-text: 720px;
-$paper-toc: 220px;
-$paper-wide: 1100px;
+$paper-toc: 200px;
+$paper-wide: 960px;   // TOC moves into the left margin from here
+$paper-figure-wide: 1280px;
 
 .paper-layout {
-    max-width: $paper-toc + 64px + $paper-text;
+    max-width: $paper-toc + 56px + $paper-text;
     margin: 0 auto;
     padding: 0 16px;
 
     @media (min-width: $paper-wide) {
         display: grid;
         grid-template-columns: $paper-toc minmax(0, $paper-text);
-        column-gap: 64px;
+        column-gap: 40px;
+    }
+
+    @media (min-width: $paper-figure-wide) {
+        column-gap: 56px;
     }
 }
 
@@ -168,12 +173,16 @@ a.paper-button-primary:visited {
 }
 
 .paper-toc-mobile {
-    margin: 0 0 $lh*1.5;
-    padding: 12px 16px;
-    border: 1px solid $grey-light;
-    @include br(4px);
+    position: sticky;   // stays reachable at the top of the screen while reading
+    top: 0;
+    z-index: 50;
+    margin: 0 -16px $lh*1.5;
+    padding: 10px 16px;
+    background: hsl(42, 100%, 96%);
+    border-bottom: 1px solid $grey-light;
     summary { margin: 0; cursor: pointer; }
     &[open] summary { margin-bottom: 12px; }
+    ul { max-height: 60vh; overflow-y: auto; }
 
     @media (min-width: $paper-wide) { display: none; }
 }
@@ -225,7 +234,7 @@ a.paper-button-primary:visited {
             color: lighten($black, 15%);
         }
 
-        @media (min-width: $paper-wide) {
+        @media (min-width: $paper-figure-wide) {
             margin-right: -120px;
             figcaption { margin-right: 120px; }
         }
@@ -267,22 +276,12 @@ a.paper-button-primary:visited {
     a { word-break: break-word; }
 }
 
-.annotation,
 .backlinks {
+    margin: 4px 0 0;
     text-indent: 0;
     font-family: $sans;
     font-size: 14px;
     line-height: 1.45;
-}
-
-.annotation {
-    margin: 6px 0 0;
-    color: lighten($black, 10%);
-    strong { color: $accent; }
-}
-
-.backlinks {
-    margin: 4px 0 0;
     color: $grey-medium;
     a { color: $grey-medium; &:hover { color: $link; } }
 }

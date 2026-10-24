@@ -31,4 +31,3 @@ python tools/build_papers.py
 2. List the references that have a DOI in `dois.txt` (`key DOI` per line) and run
    `python tools/fetch_refs.py _papers/<slug>/dois.txt _papers/<slug>/refs.json`; add the rest by hand.
    Check titles are in sentence case.
-3. "Of special/outstanding interest" notes go in the `annotations` metadata of `paper.md`.

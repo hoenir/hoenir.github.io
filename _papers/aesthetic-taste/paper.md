@@ -1,43 +1,10 @@
 ---
-# Text follows the published version (Current Opinion in Psychology 73:102461).
+# Text follows the published version (Current Opinion in Psychology 73:102461), except that the
+# ambiguity of instantaneous error cites Van de Cruys (2017), as the authors intended.
 # Title, authors, abstract and links live in the post's front matter; this file is the body only.
 bibliography: refs.json
-annotations:
-  yao2025multimodal:
-    level: special
-    text: >-
-      Evaluates multimodal foundation models on the classic Visual Aesthetic Sensitivity Test (VAST),
-      demonstrating that models can replicate human-normed aesthetic classifications without genuine
-      perceptual discernment.
-  manovich2024artificial:
-    level: outstanding
-    text: >-
-      Provides one of the most comprehensive recent discussions of how generative AI transforms aesthetic
-      production, evaluation, and taste. Especially useful for framing machine taste not simply as
-      autonomous aesthetic agency, but as part of broader human–machine systems that externalize,
-      automate, and reshape human aesthetic judgment.
-  cross2026algorithmic:
-    level: outstanding
-    text: >-
-      Argues that engagement-optimised recommenders narrow exploration and erode aesthetic autonomy —
-      the philosophical case behind this paper's opening worry about algorithmic capture and diminished agency.
-  vandecruys2024order:
-    level: special
-    text: >-
-      Develops an active-inference account of aesthetic experience as a balance between order and change,
-      providing the central theoretical background for linking sensitivity, valence, and orientation in the
-      present paper.
-  pezzulo2024generating:
-    level: outstanding
-    text: >-
-      Contrasts passive deep-learning architectures with embodied active inference agents, articulating why
-      genuine intentionality and meaning require precarious self-maintenance and closed action–perception loops.
-  batista2026rational:
-    level: special
-    text: >-
-      In a 557-participant study, unbiased AI feedback raised correct-discovery rates fivefold over standard
-      sycophantic LLM behaviour — formal evidence that flattering feedback inflates confidence without moving
-      users toward truth.
+# Hohwy (2016) is cited with a manual link (inside parentheses), so list it here
+nocite: "@hohwy2016self"
 ---
 
 # Introduction
@@ -64,7 +31,7 @@ Yet comparable accuracy can conceal profound differences in the features on whic
 
 If someone is able to identify minute differences in the flavour of a beer but remains affectively indifferent to them, we would not say that they have taste in the full sense. As philosophers have long recognized, taste is a matter of reacting affectively to things, of being pleased or displeased, of approving or disapproving [@martinezmarin2022aesthetic]. Having taste in a specific domain means more occasions for valenced experience. Hume captures this when he writes that "delicacy of taste has the same effect as delicacy of passion: it enlarges the sphere both of our happiness and misery, and makes us sensible to pains as well as pleasures, which escape the rest of mankind" [@hume1987delicacy, p. 4].
 
-To understand the roots of this valenced experience, we can return to the notion of generative model, but now emphasizing the existential significance it acquires in predictive processing. In this account, we do not merely embody models of the world: in an important sense, we are those models [@friston2011embodied; @ramstead2020tale]. Modelling the world also means constituting ourselves as distinctive points of view on it and actively sampling or changing it in ways that preserve this perspective's viability (a process often described as "self-evidencing" [@hohwy2016self]). With @dipaolo2003organismically, we can say that organisms conserve not only life, but their way of life, the perceptual and practical habits that have sustained them so far. For organisms like us, encounters are pleasant when they affirm our model's viability and extend our grip, and unpleasant when that grip recedes [@kiverstein2019feeling]. Valence seems to track our predictive successes and failures across time [@joffily2013emotional; @vandecruys2017affective; @hesp2021deeply]. Applied to taste, as to aesthetics more generally [@vandecruys2022preferences; @vandecruys2024order], this view helps us understand why we care about the differences we detect, and why extending our grasp of the world also extends the sphere of what can please and displease us.
+To understand the roots of this valenced experience, we can return to the notion of generative model, but now emphasizing the existential significance it acquires in predictive processing. In this account, we do not merely embody models of the world: in an important sense, we are those models [@friston2011embodied; @ramstead2020tale]. Modelling the world also means constituting ourselves as distinctive points of view on it and actively sampling or changing it in ways that preserve this perspective's viability (a process often described as "self-evidencing"; [Hohwy, 2016](#ref-hohwy2016self){role="doc-biblioref"}). With @dipaolo2003organismically, we can say that organisms conserve not only life, but their way of life, the perceptual and practical habits that have sustained them so far. For organisms like us, encounters are pleasant when they affirm our model's viability and extend our grip, and unpleasant when that grip recedes [@kiverstein2019feeling]. Valence seems to track our predictive successes and failures across time [@joffily2013emotional; @vandecruys2017affective; @hesp2021deeply]. Applied to taste, as to aesthetics more generally [@vandecruys2022preferences; @vandecruys2024order], this view helps us understand why we care about the differences we detect, and why extending our grasp of the world also extends the sphere of what can please and displease us.
 
 How do machines fare with respect to valence? They can certainly be trained to *predict* it: sentiment analysis and affective computing sort texts, faces, voices, and physiological signals into affective categories, and models can learn to predict human preferences for texts, sounds, images, and even beers from labelled data [@schuhmann2022laion; @kirstain2023pickapic; @wu2023human; @zhang2024learning; @schreurs2024predicting; @xu2023imagereward]. But predicting is not experiencing. Even setting experience aside, current AI is unlikely to implement anything akin to the functional role valence plays in taste. It lacks the kind of self-monitoring by which humans track whether their grip on the world is improving or deteriorating in ways tied to viability. Machines do have signals that register success or failure and guide the modification of their models. During training, their parameters are updated according to objective functions that minimize loss or prediction error. But these signals are defined by external "teachers" and have no intrinsic significance. If a model's loss increases, nothing is thereby threatened for the model itself. The loss matters solely because engineers use it for gradient descent, not because failure threatens the system's viability: its continued existence as a modelling perspective. By contrast, in humans, the loss or prediction error "makes a difference" [@bateson1979mind] as information about how the system is faring over time, and how it will have to proceed.
 
@@ -102,7 +69,7 @@ But what constitutes a stake? We think it is the continuous evaluation of one's 
 
 LLMs show no such discontinuity: next-token prediction runs at the same intensity regardless of prompt, and output varies with the statistics of the input, not with any endogenous signal that this, now, matters. One might object that models do allocate more computation to inputs statistically associated with "hard problems", and call that their form of error-monitoring. But this difficulty estimate is amortized: it is built once from training data, reporting where problems are hard in general, not whether this system is struggling here and now. Yet that difference from human error monitoring will likely narrow as context and test-time compute grow. In-context, a long enough episode lets the model condition on its own recent outputs.
 
-The key difference is in the organization (see [Figure 2](#fig-2)): the model's difficulty estimate is a first-order claim about the input ("this is hard"), while the human signal is second-order, about the modeller ("my grip is receding"). The system's actual viability can never be computed — it depends on an open future, only answerable in death — so the second-order signal can only be a proxy for it. But it is a good proxy because it is self-referential, tracking the system's own predictive capacity rather than any particular slice of the world. Instantaneous (prediction) error, by contrast, is ambiguous [@vandecruys2022preferences]: a spike can mean "I'm falling apart" or "there's something rich here to learn". But the second-order signal, the evolving dynamics of error, is directionally linked to viability and is forward-looking. It is the right object of control: it tells the system, for example, that errors will continue to rise until it does something. That self-signal, wired back into the system — not just its presence as a self-representation — is what makes the stake, and what renders processing non-uniform: even a model that can accurately *represent* itself as a contingent entity being trained, deployed, and eventually terminated [@cotra2022without; @berglund2023taken] would still only be reporting a fact about its situation. It is not (yet) a system that self-monitors and self-modulates at each step.
+The key difference is in the organization (see [Figure 2](#fig-2)): the model's difficulty estimate is a first-order claim about the input ("this is hard"), while the human signal is second-order, about the modeller ("my grip is receding"). The system's actual viability can never be computed — it depends on an open future, only answerable in death — so the second-order signal can only be a proxy for it. But it is a good proxy because it is self-referential, tracking the system's own predictive capacity rather than any particular slice of the world. Instantaneous (prediction) error, by contrast, is ambiguous [@vandecruys2017affective]: a spike can mean "I'm falling apart" or "there's something rich here to learn". But the second-order signal, the evolving dynamics of error, is directionally linked to viability and is forward-looking. It is the right object of control: it tells the system, for example, that errors will continue to rise until it does something. That self-signal, wired back into the system — not just its presence as a self-representation — is what makes the stake, and what renders processing non-uniform: even a model that can accurately *represent* itself as a contingent entity being trained, deployed, and eventually terminated [@cotra2022without; @berglund2023taken] would still only be reporting a fact about its situation. It is not (yet) a system that self-monitors and self-modulates at each step.
 
 ![**Figure 2.** Schematic representation of how a stake is (or is not) implemented. Both humans and machines run a first-order predictive loop that adapts online: the organism updates its generative model, while an LLM, with frozen weights, adapts within its context window (in-context learning), which has been modelled as implicit inference over latent tasks [@xie2021explanation]. Only the organism has a second-order signal that tracks how its own grip is changing. This signal is felt as pleasant or unpleasant (valence), feeds back into which differences matter (sensitivity) and what is sampled (orientation), and provides cues for negotiating our normative framework in the social world (normativity). The LLM's explicit error signal exists only in training and is computed outside the system. In-context adaptation is first-order (about the task, not the modeller) and transient, so its processing stays uniform.](/images/papers/aesthetic-taste/fig2.webp){#fig-2 width="1937" height="634"}
 

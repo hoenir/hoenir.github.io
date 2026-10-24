@@ -152,6 +152,12 @@
   }, { passive: true });
   updateToc();
 
+  // On small screens the contents box is a sticky dropdown; close it after jumping to a section
+  var mobileToc = document.querySelector('.paper-toc-mobile');
+  if (mobileToc) mobileToc.addEventListener('click', function (e) {
+    if (e.target.closest('a')) mobileToc.open = false;
+  });
+
   // Cite dialog with copy buttons
   var citeDialog = document.querySelector('.cite-dialog');
   var citeButton = document.querySelector('[data-cite-open]');

@@ -21,9 +21,8 @@ TOOLS = ROOT / "tools"
 COMMON = [
     "--from=markdown",
     "--to=html5",
-    "--citeproc",  # must come before the Lua filter, which edits the rendered references
+    "--citeproc",
     f"--csl={SRC / 'apa.csl'}",
-    f"--lua-filter={TOOLS / 'paper.lua'}",
     "--metadata=link-citations:true",
     "--shift-heading-level-by=1",  # sections are h2; the page title is the h1
     "--section-divs",
