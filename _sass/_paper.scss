@@ -52,7 +52,7 @@ $paper-wide: 1100px;
     margin-bottom: $lh/3;
     font-size: $fsp;
     line-height: 1.4;
-    sup { font-size: .6em; color: $grey-medium; }
+    sup { font-size: .6em; line-height: 0; vertical-align: super; color: $grey-medium; }
 }
 
 .paper-affiliations {
@@ -267,7 +267,7 @@ a.paper-button-primary:visited {
     a { word-break: break-word; }
 }
 
-.annotation p,
+.annotation,
 .backlinks {
     text-indent: 0;
     font-family: $sans;
@@ -275,7 +275,7 @@ a.paper-button-primary:visited {
     line-height: 1.45;
 }
 
-.annotation p {
+.annotation {
     margin: 6px 0 0;
     color: lighten($black, 10%);
     strong { color: $accent; }

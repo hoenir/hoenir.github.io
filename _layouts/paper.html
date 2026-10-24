@@ -18,7 +18,7 @@
 
     <article class="paper-main">
       <header class="paper-header">
-        <p class="paper-label">{{ page.journal }} &middot; {{ page.year | default: page.date | date: "%Y" }}</p>
+        <p class="paper-label">{{ page.journal }} &middot; {% if page.year %}{{ page.year }}{% else %}{{ page.date | date: "%Y" }}{% endif %}</p>
         <h1>{{ page.title }}</h1>
         <p class="paper-authors">
           {%- for a in page.author_list -%}

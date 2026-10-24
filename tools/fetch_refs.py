@@ -38,7 +38,8 @@ def clean(key: str, e: dict) -> dict:
     e["type"] = TYPES.get(e["type"], e["type"])
     if e.get("article-number") and not e.get("page"):
         e["number"] = e["article-number"]
-    if e["type"] == "article" and e.get("DOI", "").lower().startswith("10.48550/arxiv"):
+    if e.get("DOI", "").lower().startswith("10.48550/arxiv"):  # preprints, whatever type the record claims
+        e["type"] = "article"
         e["publisher"] = "arXiv"
         e.pop("container-title", None)
     if isinstance(e.get("container-title"), str):

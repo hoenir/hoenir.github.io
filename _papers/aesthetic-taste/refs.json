@@ -929,7 +929,7 @@
  },
  {
   "id": "conde2022clipart",
-  "type": "article-journal",
+  "type": "article",
   "title": "CLIP-Art: Contrastive pre-training for fine-grained art classification",
   "author": [
    {
@@ -948,7 +948,6 @@
     ]
    ]
   },
-  "container-title": "arXiv",
   "publisher": "arXiv",
   "DOI": "10.48550/ARXIV.2204.14244"
  },
