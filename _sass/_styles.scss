@@ -814,8 +814,22 @@ footer {
 @media only screen and (max-width: 500px) {
     footer {
 
+    // Room for the contact links under the recent posts (the copyright stays at the bottom)
+    .footer-inner {
+        height: auto;
+        padding-bottom: $lh*2;
+    }
+
     .social {
-        display: none;
+        position: static;
+        display: block;
+        float: none;
+        width: 100%;
+        margin: $lh 0 0;
+        ul li {
+            display: inline-block;
+            margin: 0 20px $lh/2 0;
+        }
     }
 
     aside {
