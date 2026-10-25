@@ -270,7 +270,7 @@ header.site-header nav {
 
 .article {
     position: relative;
-    margin-bottom: $lh;
+    margin-bottom: 0; // the footer sets the gap below the content
 
     .overlay {
         vertical-align: middle;
@@ -376,6 +376,11 @@ header.site-header nav {
             font-size: $fs3;
             margin-bottom: $lh*2;
             position: relative;
+
+            &:last-child,
+            &:last-child p:last-child {
+                margin-bottom: 0;
+            }
 
             a {
                 position: relative;
@@ -580,6 +585,7 @@ footer {
 
     // Landscape whose sky fades into the page colour and whose forest runs into the footer
     .landscape {
+        margin-top: 16px; // the only gap between the page content and the landscape
         // Image is 2000 x 857 and always spans the full width, uncropped: its top edge is the
         // page colour and its bottom edge the footer black
         aspect-ratio: unquote("2000 / 857");

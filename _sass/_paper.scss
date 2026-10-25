@@ -272,6 +272,7 @@ a.paper-button-primary:visited {
         text-indent: -2em;
         scroll-margin-top: $lh;
         &:target { background: $hilite; }
+        &:last-child { margin-bottom: 0; }
     }
     a { word-break: break-word; }
 }
