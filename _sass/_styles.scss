@@ -142,7 +142,7 @@ input {
 #bump {
     min-height: 100%;
     height: auto;
-    margin: 0 auto -$footerHeight;
+    margin: 0 auto;
 }
 
 .wrap {
@@ -578,11 +578,27 @@ header.site-header nav {
 
 footer {
     width: 100%;
-    background: $black;
-    height: $footerHeight;
+    background: $footer-bg;
     font-size: $fsp;
     color: $white;
     position: relative;
+
+    // Landscape whose sky fades into the page colour and whose forest runs into the footer
+    .landscape {
+        height: unquote("clamp(150px, 46.5vw, 520px)"); // image is 2000 x 930
+        background-image: url(/images/footer-landscape.webp);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        @media (max-width: 1000px) {
+            background-image: url(/images/footer-landscape-1000.webp);
+        }
+    }
+
+    .footer-inner {
+        position: relative;
+        height: $footerHeight;
+    }
 
     // Contain that ish
     section {
@@ -601,9 +617,9 @@ footer {
         bottom: 8px;
         font-family: $sans;
         text-transform: uppercase;
-        color: transparentize($white, .9);
+        color: transparentize($white, .45);
         a {
-            color: transparentize($white, .7);
+            color: transparentize($white, .2);
         }
     }
 
