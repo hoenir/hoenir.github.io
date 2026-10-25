@@ -578,26 +578,32 @@ header.site-header nav {
 
 footer {
     width: 100%;
-    background: $footer-bg;
     font-size: $fsp;
     color: $white;
     position: relative;
 
     // Landscape whose sky fades into the page colour and whose forest runs into the footer
     .landscape {
-        height: unquote("clamp(150px, 46.5vw, 520px)"); // image is 2000 x 930
+        // Image is 2000 x 930 and always spans the full width; on very wide screens the band is
+        // capped and the (page-coloured) sky is cropped from the top, so the black bottom meets the footer
+        aspect-ratio: unquote("2000 / 930");
+        max-height: 744px;
+        background-color: hsl(42, 100%, 96%); // page colour, matches the image's top edge
         background-image: url(/images/footer-landscape.webp);
-        background-position: center top;
-        background-size: cover;
+        background-position: center bottom;
+        background-size: 100% auto;
         background-repeat: no-repeat;
         @media (max-width: 1000px) {
             background-image: url(/images/footer-landscape-1000.webp);
         }
     }
 
+    // The black is painted here, not on footer, so no dark seam shows above the landscape
     .footer-inner {
         position: relative;
         height: $footerHeight;
+        margin-top: -1px; // overlap the landscape's black bottom so no light seam shows
+        background: $footer-bg;
     }
 
     // Contain that ish
