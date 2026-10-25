@@ -37,8 +37,8 @@ def main() -> None:
     run = runs[0]
     site = pathlib.Path(tempfile.mkdtemp(prefix="site-preview-"))
     gh("run", "download", str(run["databaseId"]), "-R", REPO, "-n", "site", "-D", str(site))
-    print(f"Preview of {branch} @ {run['headSha'][:7]} (built {run['createdAt']})")
-    print(f"Open http://localhost:{PORT}  (Ctrl+C to stop)")
+    print(f"Preview of {branch} @ {run['headSha'][:7]} (built {run['createdAt']})", flush=True)
+    print(f"Open http://localhost:{PORT}  (Ctrl+C to stop)", flush=True)
 
     class Handler(http.server.SimpleHTTPRequestHandler):
         # GitHub Pages serves /about as about.html or about/index.html
