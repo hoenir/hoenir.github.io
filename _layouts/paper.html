@@ -1,10 +1,17 @@
 {%- comment -%}
   Online version of a publication. The body and table of contents are rendered by
   tools/build_papers.py from _papers/<page.paper>/ into _includes/papers/.
-  The post's own content is the abstract.
+  The post's own content is the abstract. Book chapters set `book`, `editors` and `publisher`
+  instead of journal details; `note` (Markdown) is shown under the authors, `preprint` adds a button.
 {%- endcomment -%}
 {%- assign first_word = page.title | split: ' ' | first | slugify -%}
 {%- assign bibkey = page.author_list[0].family | slugify | remove: '-' | append: page.year | append: first_word -%}
+{%- capture editors_apa -%}
+  {%- for e in page.editors -%}
+    {%- if forloop.last and forloop.length > 1 %}{% if forloop.length > 2 %},{% endif %} &amp; {% elsif forloop.index > 1 %}, {% endif -%}
+    {{ e.given | slice: 0 }}. {{ e.family }}
+  {%- endfor -%}
+{%- endcapture -%}
 {% include head.html dark=true %}
 
 <section class="article pad-top paper">
@@ -18,7 +25,7 @@
 
     <article class="paper-main">
       <header class="paper-header">
-        <p class="paper-label">{{ page.journal }} &middot; {% if page.year %}{{ page.year }}{% else %}{{ page.date | date: "%Y" }}{% endif %}</p>
+        <p class="paper-label">{% if page.book %}Book chapter{% else %}{{ page.journal }}{% endif %} &middot; {% if page.year %}{{ page.year }}{% else %}{{ page.date | date: "%Y" }}{% endif %}</p>
         <h1>{{ page.title }}</h1>
         <p class="paper-authors">
           {%- for a in page.author_list -%}
@@ -33,12 +40,18 @@
           {%- endfor %}
         </ol>
         {%- endif %}
+        {%- if page.note %}
+        <p class="paper-note">{{ page.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+        {%- endif %}
         <div class="paper-actions">
           {%- if page.link %}
           <a class="paper-button paper-button-primary" href="{{ page.link }}">Download PDF</a>
           {%- endif %}
           {%- if page.doi %}
           <a class="paper-button" href="https://doi.org/{{ page.doi }}">Publisher version</a>
+          {%- endif %}
+          {%- if page.preprint %}
+          <a class="paper-button" href="{{ page.preprint }}">Preprint</a>
           {%- endif %}
           <button class="paper-button" type="button" data-cite-open aria-haspopup="dialog">Cite</button>
           {% include share.html %}
@@ -65,16 +78,23 @@
     <form method="dialog" class="share-close-form">
       <button class="share-close" aria-label="Close">&times;</button>
     </form>
-    <p class="share-dialog-title" id="cite-dialog-title">Cite this article</p>
+    <p class="share-dialog-title" id="cite-dialog-title">Cite this {% if page.book %}chapter{% else %}article{% endif %}</p>
     <p class="cite-format">APA</p>
+    {%- if page.book %}
+    <p class="cite-text" id="cite-apa">{{ page.authors }} ({{ page.year }}). {{ page.title }}. In {{ editors_apa }} (Ed{% if page.editors.size > 1 %}s{% endif %}.), <em>{{ page.book }}</em>. {{ page.publisher }}.{% if page.doi %} https://doi.org/{{ page.doi }}{% endif %}</p>
+    {%- else %}
     <p class="cite-text" id="cite-apa">{{ page.authors }} ({{ page.year }}). {{ page.title }}. <em>{{ page.journal }}{% if page.volume %}, {{ page.volume }}{% endif %}</em>{% if page.article_number %}, {{ page.article_number }}{% endif %}.{% if page.doi %} https://doi.org/{{ page.doi }}{% endif %}</p>
+    {%- endif %}
     <button class="paper-button" type="button" data-copy="cite-apa">Copy</button>
     <p class="cite-format">BibTeX</p>
 {%- assign lb = '{' -%}{%- assign rb = '}' -%}
-<pre class="cite-text" id="cite-bibtex">@article{{ lb }}{{ bibkey }},
+<pre class="cite-text" id="cite-bibtex">@{% if page.book %}incollection{% else %}article{% endif %}{{ lb }}{{ bibkey }},
   author  = {{ lb }}{% for a in page.author_list %}{{ a.family }}, {{ a.given }}{% unless forloop.last %} and {% endunless %}{% endfor %}{{ rb }},
-  title   = {{ lb }}{{ page.title }}{{ rb }},
-  journal = {{ lb }}{{ page.journal }}{{ rb }},
+  title   = {{ lb }}{{ page.title }}{{ rb }},{% if page.book %}
+  booktitle = {{ lb }}{{ page.book }}{{ rb }},
+  editor  = {{ lb }}{% for e in page.editors %}{{ e.family }}, {{ e.given }}{% unless forloop.last %} and {% endunless %}{% endfor %}{{ rb }},
+  publisher = {{ lb }}{{ page.publisher }}{{ rb }},{% else %}
+  journal = {{ lb }}{{ page.journal }}{{ rb }},{% endif %}
   year    = {{ lb }}{{ page.year }}{{ rb }},{% if page.volume %}
   volume  = {{ lb }}{{ page.volume }}{{ rb }},{% endif %}{% if page.article_number %}
   pages   = {{ lb }}{{ page.article_number }}{{ rb }},{% endif %}{% if page.doi %}

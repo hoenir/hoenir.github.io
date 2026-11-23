@@ -121,6 +121,19 @@ a.paper-button-primary:visited {
     }
 }
 
+// Publication status, e.g. "submitted for publication in ..." (front matter `note`)
+.paper-note {
+    margin: 0 0 $lh;
+    padding: 10px 14px;
+    border: 1px solid transparentize($accent, .6);
+    @include br(4px);
+    font-size: 17px;
+    line-height: 1.45;
+    font-style: italic;
+    color: lighten($black, 10%);
+    em { font-style: normal; padding: 0; }
+}
+
 /* Abstract */
 
 .paper-abstract {
@@ -238,6 +251,31 @@ a.paper-button-primary:visited {
             margin-right: -120px;
             figcaption { margin-right: 120px; }
         }
+    }
+}
+
+/* Boxes (worked examples etc.): ::: {.box #box-1} in paper.md */
+
+.paper-body .box {
+    margin: $lh*1.5 0;
+    padding: 20px 24px 4px;
+    background: transparentize($black, .96);
+    border: 1px solid $grey-light;
+    @include br(4px);
+    scroll-margin-top: $lh;
+
+    > p:first-child {
+        margin-bottom: $lh/2;
+        font-family: $sans;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: $accent;
+    }
+    p { font-size: 19px; line-height: 1.55; }
+    figure {
+        margin-right: 0;
+        figcaption { margin-right: 0; }
     }
 }
 
