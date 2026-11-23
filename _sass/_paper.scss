@@ -72,6 +72,7 @@ $paper-figure-wide: 1280px;
     li {
         counter-increment: aff;
         &::before { content: counter(aff) " "; font-size: .8em; vertical-align: super; }
+        &:only-child::before { content: none; } // no number for a single affiliation
     }
 }
 
