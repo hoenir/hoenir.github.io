@@ -397,7 +397,7 @@ a.paper-button-primary:visited {
 
 .paper-hero {
     position: relative;
-    margin: 0 0 $lh;
+    margin: 0 0 (-$lh/2); // pull the header up a little; it has its own top margin
 
     img {
         display: block;
