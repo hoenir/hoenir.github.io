@@ -388,7 +388,8 @@ a.paper-button-primary:visited {
 @media only screen and (max-width: $breakpoint-1-max-width) {
     .paper-header h1 { font-size: 32px; }
     .paper-authors { font-size: 18px; }
-    .paper-abstract p { font-size: 17px; }
+    .paper-abstract p { font-size: 18px; }
+    .paper-body p, .paper-body li { font-size: 18px; line-height: 1.5; } // 16px reads small in this low x-height face
     .paper-body h2 { font-size: 26px; }
     #refs { font-size: 15px; }
 }
