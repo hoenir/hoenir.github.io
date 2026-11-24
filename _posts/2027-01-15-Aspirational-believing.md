@@ -17,6 +17,12 @@ editors:
   - { given: Kenzo, family: Nera }
 publisher: De Gruyter
 year: 2027
+image:
+  feature: papers/aspirational-believing/hero.webp
+  alt: "Pink and orange contrails crossing a deep blue sky at dusk"
+  credit: Bernd Dittrich
+  creditlink: https://unsplash.com/photos/pink-and-orange-contrails-in-sky-RyzguFaBAPg
+  source: Unsplash
 note: "This chapter has been submitted for publication in Roland Imhoff & Kenzo Nera (Eds.), *Handbook on the Psychology behind Conspiracy Theories*. De Gruyter. This version may differ from the published one. November 23, 2026"
 category: [publications, work, journal]
 tags: [conspiracy beliefs, feeling of insight, curiosity, empowerment, metacognition, signal detection theory, perceived control, aha experience]

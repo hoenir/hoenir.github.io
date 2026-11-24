@@ -3,6 +3,8 @@
   tools/build_papers.py from _papers/<page.paper>/ into _includes/papers/.
   The post's own content is the abstract. Book chapters set `book`, `editors` and `publisher`
   instead of journal details; `note` (Markdown) is shown under the authors, `preprint` adds a button.
+  `image.feature` (a .webp under images/, with a -1200 copy) adds a banner; `image.credit`,
+  `image.creditlink`, `image.source`, `image.alt` and `image.position` (object-position) go with it.
 {%- endcomment -%}
 {%- assign first_word = page.title | split: ' ' | first | slugify -%}
 {%- assign bibkey = page.author_list[0].family | slugify | remove: '-' | append: page.year | append: first_word -%}
@@ -15,6 +17,15 @@
 {% include head.html dark=true %}
 
 <section class="article pad-top paper">
+  {%- if page.image.feature %}
+  {%- assign hero = page.image.feature | prepend: '/images/' | relative_url %}
+  <figure class="paper-hero">
+    <img src="{{ hero }}" srcset="{{ hero | replace: '.webp', '-1200.webp' }} 1200w, {{ hero }} 2400w" sizes="100vw" alt="{{ page.image.alt }}" width="2400" height="1000" fetchpriority="high"{% if page.image.position %} style="object-position: {{ page.image.position }}"{% endif %}>
+    {%- if page.image.credit %}
+    <figcaption>Photo: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% else %}{{ page.image.credit }}{% endif %}{% if page.image.source %} / {{ page.image.source }}{% endif %}</figcaption>
+    {%- endif %}
+  </figure>
+  {%- endif %}
   <div class="paper-layout">
     <aside class="paper-aside">
       <nav class="paper-toc" aria-label="Contents">

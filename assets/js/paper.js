@@ -158,6 +158,23 @@
     if (e.target.closest('a')) mobileToc.open = false;
   });
 
+  // The reference list is folded (<details>); open it when a link or the URL points into it
+  function revealTarget(hash) {
+    var target = hash && hash.length > 1 && document.getElementById(decodeURIComponent(hash.slice(1)));
+    var fold = target && target.closest('details.refs-fold');
+    if (fold && !fold.open) fold.open = true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href^="#"]');
+    if (a) revealTarget(a.hash);
+  }, true);
+  window.addEventListener('hashchange', function () { revealTarget(location.hash); });
+  if (location.hash) {
+    revealTarget(location.hash);
+    var initial = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (initial) initial.scrollIntoView();
+  }
+
   // Cite dialog with copy buttons
   var citeDialog = document.querySelector('.cite-dialog');
   var citeButton = document.querySelector('[data-cite-open]');

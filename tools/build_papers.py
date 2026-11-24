@@ -45,7 +45,24 @@ def render(paper_dir: pathlib.Path) -> None:
     html = re.sub(r' id="toc-[^"]*"', "", toc.read_text(encoding="utf-8"))
     html = html.replace("<ul>", '<ul>\n<li><a href="#abstract">Abstract</a></li>', 1)
     toc.write_text(html, encoding="utf-8")
+    fold_references(OUT / f"{slug}.html")
     print(f"rendered {slug}")
+
+
+def fold_references(path: pathlib.Path) -> None:
+    """Fold the reference list into a <details> so it doesn't add to the page length.
+    paper.js opens it when a citation link points into it."""
+    html = path.read_text(encoding="utf-8")
+    start = html.find('<div id="refs"')
+    if start < 0:
+        return
+    end = html.index("</section>", start)
+    count = html.count('class="csl-entry"', start, end)
+    html = (html[:start]
+            + f'<details class="refs-fold">\n<summary><span class="refs-show">Show all {count} references</span>'
+            + '<span class="refs-hide">Hide references</span></summary>\n'
+            + html[start:end] + "</details>\n" + html[end:])
+    path.write_text(html, encoding="utf-8")
 
 
 def main() -> None:
