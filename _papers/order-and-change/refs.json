@@ -936,6 +936,10 @@
    {
     "given": "Pierre-Yves",
     "family": "Oudeyer"
+   },
+   {
+    "family": "Kaplan",
+    "given": "Frederic"
    }
   ],
   "issued": {
@@ -1255,8 +1259,7 @@
    {
     "given": "Andy",
     "family": "Clark"
-   },
-   {}
+   }
   ],
   "issued": {
    "date-parts": [

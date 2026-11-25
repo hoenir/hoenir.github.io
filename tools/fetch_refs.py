@@ -54,6 +54,7 @@ def clean(key: str, e: dict) -> dict:
         if role in e:
             e[role] = [{k: v.replace("\u2010", "-") for k, v in person.items() if k in NAME_PARTS}
                        for person in e[role]]
+            e[role] = [p for p in e[role] if p]  # Crossref sometimes has empty name records
     for k in ("title", "container-title"):
         if isinstance(e.get(k), str):
             e[k] = e[k].replace("\u2010", "-")

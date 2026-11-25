@@ -183,7 +183,7 @@ S.V.d.C. is grateful to Jo Bervoets for consistently extending his arc. J.F. is 
 
 [^4]: Technically, Bayesian belief updating, and model selection, try to maximise model evidence (a.k.a. the marginal likelihood of some data under a model). Crucially, log model evidence can always be expressed as accuracy minus complexity. This means we are compelled to find accurate explanations for data that are as simple as possible (c.f. Occam’s principle or Jaynes’ maximum entropy principle).
 
-[^5]: Salience in active inference is read as the expected information gain or epistemic affordance. This is sometimes referred to as intrinsic motivation or value, especially in machine learning and neurorobotics. [@schmidhuber2010formal; @oudeyer2007intrinsic; @barto2013novelty; @schwartenbeck2019computational]
+[^5]: Salience in active inference is read as the expected information gain or epistemic affordance. This is sometimes referred to as intrinsic motivation or value, especially in machine learning and neurorobotics [@schmidhuber2010formal; @oudeyer2007intrinsic; @barto2013novelty; @schwartenbeck2019computational].
 
 [^6]: Empirical priors are a technical term for the beliefs or expectations at intermediate levels in hierarchical (i.e. deep) models. They play the role of likelihoods from the point of view of higher levels and priors on lower levels. Crucially, empirical priors are always updated in the face of new data.
 
