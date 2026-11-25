@@ -14,6 +14,12 @@ affiliations:
   - "BIP (BraIn Plasticity and Behaviour Changes) Research Group, Department of Psychology, University of Turin, Italy"
   - "Leibniz Institute for Psychology, Trier, Germany"
 year: 2027
+image:
+  feature: papers/aesthetic-taste/hero.webp
+  alt: "Close-up of a glass of wheat beer with condensation drops above the foam"
+  credit: Timothy Dykes
+  creditlink: https://unsplash.com/photos/a-close-up-of-a-glass-of-beer-with-drops-of-water-Lq1rOaigDoY
+  source: Unsplash
 volume: 73
 article_number: 102461
 doi: 10.1016/j.copsyc.2026.102461
