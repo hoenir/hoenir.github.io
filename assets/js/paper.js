@@ -22,7 +22,7 @@
     line.className = 'backlinks';
     line.append('Cited in ');
     citesByRef[key].forEach(function (a) {
-      var section = a.closest('section');
+      var section = a.closest('section.level2') || a.closest('section');
       var heading = section && section.querySelector('h2');
       var label = heading ? heading.textContent : 'text';
       if (seen[label]) return;
@@ -63,14 +63,13 @@
     } else {
       var entry = target.cloneNode(true);
       entry.removeAttribute('id');
-      var backlinks = entry.querySelector('.backlinks');
-      if (backlinks) backlinks.remove();
+      entry.querySelectorAll('.backlinks, .footnote-back').forEach(function (el) { el.remove(); });
       box.append(entry);
     }
     var jump = document.createElement('a');
     jump.className = 'popover-jump';
     jump.href = link.hash;
-    jump.textContent = target.tagName === 'FIGURE' ? 'Go to figure ↓' : 'Go to reference ↓';
+    jump.textContent = target.tagName === 'FIGURE' ? 'Go to figure ↓' : target.id.indexOf('fn') === 0 ? 'Go to note ↓' : 'Go to reference ↓';
     jump.addEventListener('click', hide);
     box.append(jump);
     return box;
@@ -102,7 +101,7 @@
     hideTimer = setTimeout(hide, 250);
   }
 
-  body.querySelectorAll('a[role="doc-biblioref"], a[href^="#fig-"]').forEach(function (link) {
+  body.querySelectorAll('a[role="doc-biblioref"], a[href^="#fig-"], a.footnote-ref').forEach(function (link) {
     link.addEventListener('mouseenter', function () {
       if (input !== 'mouse') return;
       clearTimeout(hideTimer);

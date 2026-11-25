@@ -46,6 +46,9 @@ def render(paper_dir: pathlib.Path) -> None:
     html = html.replace("<ul>", '<ul>\n<li><a href="#abstract">Abstract</a></li>', 1)
     toc.write_text(html, encoding="utf-8")
     fold_references(OUT / f"{slug}.html")
+    if notes_before_references(OUT / f"{slug}.html"):
+        html = html.replace('<li><a href="#references">', '<li><a href="#notes">Notes</a></li>\n<li><a href="#references">', 1)
+        toc.write_text(html, encoding="utf-8")
     print(f"rendered {slug}")
 
 
@@ -63,6 +66,20 @@ def fold_references(path: pathlib.Path) -> None:
             + '<span class="refs-hide">Hide references</span></summary>\n'
             + html[start:end] + "</details>\n" + html[end:])
     path.write_text(html, encoding="utf-8")
+
+
+def notes_before_references(path: pathlib.Path) -> bool:
+    """Pandoc puts footnotes at the very end; show them as a "Notes" section before the references."""
+    html = path.read_text(encoding="utf-8")
+    m = re.search(r'<section id="footnotes"[^>]*>\n<hr />\n(.*?)</section>\n', html, flags=re.S)
+    if not m or '<section id="references"' not in html:
+        return False
+    notes = f'<section id="notes" class="level2 footnotes" role="doc-endnotes">\n<h2>Notes</h2>\n{m.group(1)}</section>\n'
+    html = html.replace(m.group(0), "")
+    anchor = '<div class="backmatter">' if '<div class="backmatter">' in html else '<section id="references"'
+    html = html.replace(anchor, notes + anchor, 1)
+    path.write_text(html, encoding="utf-8")
+    return True
 
 
 def main() -> None:

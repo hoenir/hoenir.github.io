@@ -449,3 +449,27 @@ a.paper-button-primary:visited {
         .refs-hide { display: inline; }
     }
 }
+
+/* Notes (Pandoc footnotes, moved before the references by build_papers.py) */
+
+.paper-body {
+    .footnote-ref sup {
+        font-family: $sans;
+        font-size: .65em;
+        line-height: 0;
+        padding: 0 1px;
+    }
+}
+
+#notes {
+    ol { padding-left: 1.4em; }
+    li {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 12px;
+        scroll-margin-top: $lh;
+        &:target { background: $hilite; }
+        p { font-size: inherit; line-height: inherit; margin: 0; }
+    }
+    .footnote-back { margin-left: 4px; border: 0; text-decoration: none; }
+}
